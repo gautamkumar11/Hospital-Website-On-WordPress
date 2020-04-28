@@ -1,0 +1,9 @@
+.filters {
+  @extend .list-unstyled;
+
+  > li {
+    float: right;
+    margin-right: 0;
+    margin-left: 3rem;
+  }
+}

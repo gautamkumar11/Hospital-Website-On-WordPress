@@ -1,0 +1,28 @@
+.services-item {
+
+  &-one-column {
+
+    .services-item {
+
+      &-content-wrap {
+        text-align: right;
+      }
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* Services Single page Styles
+/*------------------------------------------------------*/
+.services-single {
+
+  .flexslider {
+    float: right;
+    margin-right: 0;
+    margin-left: 2%;
+
+    .flex-control-nav {
+    //  right: 10px;
+    }
+  }
+}

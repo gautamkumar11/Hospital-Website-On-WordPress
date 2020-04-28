@@ -1,0 +1,30 @@
+.site-footer {
+  background-color: #2b3239;
+  color: #97a4b0;
+
+  a:hover {
+    color: #fff;
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  .widget_recent_comments,
+  .widget_recent_entries,
+  .widget_categories,
+  .widget_archive,
+  .widget_pages,
+  .widget_meta {
+
+    li {
+
+      &:before {
+        background-image: url("../images/icon-tick.png");
+      }
+    }
+  }
+}
+
+@import "footer-bottom";
+@import "scroll-top";

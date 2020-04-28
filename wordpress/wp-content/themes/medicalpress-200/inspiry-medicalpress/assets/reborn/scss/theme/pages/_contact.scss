@@ -1,0 +1,121 @@
+::-webkit-input-placeholder {
+  color: #9ba0aa;
+}
+
+::-moz-placeholder {
+  color: #9ba0aa;
+}
+
+:-ms-input-placeholder {
+  color: #9ba0aa;
+}
+
+input:-moz-placeholder {
+  color: #9ba0aa;
+}
+
+form {
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="date"],
+  input[type="range"],
+  input[type="password"],
+  input[type ="text"],
+  textarea {
+    border-color: $mp-theme-border-color;
+    background-color: #fff;
+    color: inherit;
+  }
+
+  input.error,
+  textarea.error {
+    border-color: #ff0000;
+  }
+
+  fieldset {
+
+    label {
+      color: #999ca5;
+      border-bottom-color: #dcdee4;
+    }
+  }
+}
+
+.contact-form {
+
+  input.error,
+  textarea.error {
+    border-color: #DF1E2D;
+  }
+}
+
+label.error {
+  color: #DF1E2D;
+}
+
+.contact-sidebar {
+
+  strong {
+    color: $headings-color;
+  }
+}
+
+.contact-page-social-media {
+  border-color: #dcdee4;
+
+  &-list {
+
+    a {
+      background-color: $mp-theme-color-one;
+      color: #fff;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .twitter:hover {
+      background-color: #2bbfec;
+    }
+
+    .skype:hover {
+      background-color: #0099e5;
+    }
+
+    .facebook:hover {
+      background-color: #395b89;
+    }
+
+    .linkedin:hover {
+      background-color: #1184cd;
+    }
+
+    .youtube:hover {
+      background-color: #d02525;
+    }
+
+    .instagram:hover {
+      background-color: #457299;
+    }
+
+    .rss:hover {
+      background-color: #ec894d;
+    }
+
+    .google:hover {
+      background-color: #d63b3b;
+    }
+  }
+}
+
+/* Google reCAPTCHA Styles */
+.recaptcha_widget {
+  border-color: #dcdee4;
+}
+
+.recaptcha_is_showing_audio #recaptcha_image {
+  background: #fff;
+}

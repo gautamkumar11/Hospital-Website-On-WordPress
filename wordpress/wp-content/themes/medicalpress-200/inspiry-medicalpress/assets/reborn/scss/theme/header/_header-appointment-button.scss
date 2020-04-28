@@ -1,0 +1,13 @@
+.header-appointment-button {
+  background-color: $mp-theme-color-one;
+  color: #fff;
+
+  &:hover {
+    background-color: darken($mp-theme-color-one, 10%);
+    color: #fff;
+  }
+
+  .icon-calendar {
+    fill: #fff;
+  }
+}

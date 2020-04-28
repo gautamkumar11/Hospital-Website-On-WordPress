@@ -1,0 +1,54 @@
+/*!
+ * Main CSS v1.0
+ */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "main/custom";
+
+@include import_file( '01', 'Bootstrap v4.0.0-beta (https://getbootstrap.com)');
+@import "bootstrap/print";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/alert";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/transitions";
+@import "bootstrap/utilities";
+
+@include import_file( '02', 'Common');
+@import "main/reboot";
+@import "main/common";
+@import "main/wordpress-core";
+@import "main/buttons";
+@import "main/pagination";
+@import "main/banner";
+@import "main/breadcrumb";
+@import "main/filters";
+@import "main/widgets/widgets";
+
+@include import_file( '03', 'Header');
+@import "main/header/header";
+
+@include import_file( '04', 'Footer');
+@import "main/footer/footer-call-to-action";
+@import "main/footer/footer";
+
+@include import_file( '05', 'Pages');
+@import "main/home/home";
+@import "main/pages/doctors";
+@import "main/pages/services";
+@import "main/pages/gallery";
+@import "main/pages/blog";
+@import "main/pages/contact";
+@import "main/pages/appointment";
+@import "main/pages/page";
+@import "main/pages/faq";
+@import "main/pages/404";
+@import "main/pages/shop";

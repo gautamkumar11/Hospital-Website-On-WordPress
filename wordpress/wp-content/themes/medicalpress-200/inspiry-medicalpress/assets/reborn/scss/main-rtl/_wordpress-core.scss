@@ -1,0 +1,51 @@
+.alignnone {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.alignright {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+.alignleft {
+  float: right;
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+a img.alignright {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+a img.alignnone {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+a img.alignleft {
+  float: right;
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.wp-caption.alignnone,
+.wp-caption.alignleft {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.wp-caption.alignright {
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+  left: auto;
+  right: 5px;
+}

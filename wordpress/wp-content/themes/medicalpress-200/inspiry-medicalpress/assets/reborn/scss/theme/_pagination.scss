@@ -1,0 +1,15 @@
+.pagination,
+.page-links {
+
+  span,
+  a {
+    background-color: $mp-theme-color-one;
+    color: #fff;
+
+    &:hover,
+    &.current {
+      background-color: $mp-theme-color-two;
+      color: #fff;
+    }
+  }
+}

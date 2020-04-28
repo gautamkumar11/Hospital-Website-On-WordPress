@@ -1,0 +1,99 @@
+// Variables
+
+// Color system
+$mp-theme-color-one: #7ace4c;
+$mp-theme-color-two: #007d9e;
+$mp-theme-border-color: #ecf1f2;
+
+$body-bg: #fff;
+$body-color: #7d98ad;
+$headings-color: #2f3d4a;
+$link-color: $headings-color;
+$link-hover-color: $mp-theme-color-one;
+
+// Options
+$enable-rounded: false;
+
+// Spacing
+$spacer: 1.6rem;
+
+// Links
+$link-decoration: none;
+$link-hover-decoration: none;
+
+// Fonts
+$font-family-base: 'Montserrat', $font-family-sans-serif;
+
+$font-size-base: 1.5rem;
+$font-size-lg: 2rem;
+$font-size-sm: 1.4rem;
+$font-weight-base: normal;
+$line-height-base: 1.8;
+
+$h1-font-size: 3.2rem;
+$h2-font-size: 2.8rem;
+$h3-font-size: 2.4rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: 1.6rem;
+$h6-font-size: 1.4rem;
+
+$headings-margin-bottom: 2rem;
+$headings-font-family: inherit;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+$input-btn-padding-y:       1.5rem;
+$input-btn-padding-x:       2.8rem;
+
+$input-btn-padding-y-sm:    1rem;
+$input-btn-padding-x-sm:    2rem;
+
+$input-btn-padding-y-lg:    1.8rem;
+$input-btn-padding-x-lg:    3.5rem;
+
+$btn-box-shadow:            none;
+$btn-focus-box-shadow:      none;
+$btn-active-box-shadow:     none;
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1170px
+);
+
+//
+// Mixins
+//
+@mixin placeholder($color: $body-color) {
+  &:-moz-placeholder {
+    color: $color;
+  }
+
+  &::-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+
+@mixin import_file($number, $name) {
+/*-------------------------------------------------------------------*/
+/* #{$number} - #{$name}
+/*-------------------------------------------------------------------*/
+}

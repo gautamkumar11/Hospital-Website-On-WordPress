@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  
+  &,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+input[type="submit"],
+.read-more {
+  @extend .btn;
+}

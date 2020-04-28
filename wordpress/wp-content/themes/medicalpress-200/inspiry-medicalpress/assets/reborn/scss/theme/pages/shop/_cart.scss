@@ -1,0 +1,14 @@
+.woocommerce {
+
+  table thead tr th {
+    color: $headings-color;
+  }
+
+  table.shop_table td {
+    color: $body-color;
+  }
+}
+
+.woocommerce a.remove:hover {
+  color: #28a745 !important;
+}

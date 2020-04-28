@@ -1,0 +1,27 @@
+.header-address {
+  position: relative;
+  display: inline-block;
+  max-width: 238px;
+  margin-top: 1rem;
+  padding: 0 0 0 3.8rem;
+  font-size: 1.4rem;
+  line-height: 1.45;
+  text-align: left;
+
+  > address {
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+
+    + .header-contact-number {
+      margin-left: 2rem;
+    }
+  }
+
+  .icon-pin {
+    position: absolute;
+    top: 2px;
+    left: -3.3px;
+  }
+}

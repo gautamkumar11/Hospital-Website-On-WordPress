@@ -1,0 +1,24 @@
+.sidebar {
+
+  .widget_recent_comments,
+  .widget_recent_entries,
+  .widget_categories,
+  .widget_archive,
+  .widget_pages,
+  .widget_meta {
+
+    li {
+      border-color: $mp-theme-border-color;
+
+      &:last-child{
+        border-color: $mp-theme-border-color;
+      }
+    }
+  }
+}
+
+@import "widget-search";
+@import "widget-tagcloud";
+@import "widget-calendar";
+@import "tabs-widget";
+@import "widget-popular-blog-posts";

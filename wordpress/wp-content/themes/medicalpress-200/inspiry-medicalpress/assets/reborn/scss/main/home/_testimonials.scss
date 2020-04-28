@@ -1,0 +1,58 @@
+.testimonials-carousel {
+
+  .owl-item {
+    padding: 0 3px 3px;
+
+    img {
+      width: auto;
+    }
+  }
+
+  &-item {
+    margin-bottom: 5px;
+    padding: 4.7rem 4.5rem;
+    border-top: 2px solid transparent;
+
+    &-header {
+      margin-bottom: 2.8rem;
+    }
+
+    &-title {
+      font-size: 2.4rem;
+      font-weight: 300;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+  }
+}
+
+.testimonial {
+
+  &-author-photo {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 1.6rem;
+    border-radius: 50%;
+  }
+
+  &-author-content {
+    display: table;
+    padding-top: 1.2rem;
+  }
+
+  &-author-name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: .4rem;
+  }
+
+  &-author-link {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}

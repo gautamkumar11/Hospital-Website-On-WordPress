@@ -1,0 +1,30 @@
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  border-left-color: $mp-theme-border-color;
+
+  &:before {
+    border-color: $mp-theme-border-color;
+  }
+
+  li {
+    border-color: $mp-theme-border-color;
+  }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  color: $headings-color;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+  border-color: $mp-theme-border-color;
+
+}
+
+.woocommerce #reviews #comments ol.commentlist {
+
+  li {
+
+    .comment-text {
+      border-color: $mp-theme-border-color;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.site-footer {
+
+  .widget-popular-blog-posts {
+
+    &-meta {
+
+      span a {
+        color: #fff;
+
+        &:hover {
+          color: $mp-theme-color-one;
+        }
+      }
+    }
+
+    .blog-link {
+
+      i {
+        color: $mp-theme-color-one;
+      }
+
+      &:hover {
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.site-header {
+
+  &-top {
+
+    &-col-right {
+
+      @include media-breakpoint-up(md) {
+        text-align: left;
+      }
+    }
+  }
+
+  &-middle {
+
+    &-col-right {
+
+      @include media-breakpoint-up(md) {
+        text-align: left;
+      }
+    }
+  }
+}
+
+@import "header-opening-hours";
+@import "header-social-nav";
+@import "header-search";
+
+// Header Middle
+@import "header-logo";
+@import "header-address";
+@import "header-contact-number";
+
+// Header Bottom
+@import "header-menu";
+@import "header-appointment-button";

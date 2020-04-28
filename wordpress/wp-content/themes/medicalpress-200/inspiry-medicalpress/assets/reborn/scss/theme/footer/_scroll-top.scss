@@ -1,0 +1,9 @@
+.scroll-top {
+  background-color: #2f3644;
+  color: #fff;
+
+  &:hover{
+    background-color: $mp-theme-color-one;
+    color: #fff;
+  }
+}

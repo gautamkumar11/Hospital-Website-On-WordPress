@@ -1,0 +1,71 @@
+.appoint-page {
+  padding: 8rem 0;
+
+  .entry-content {
+    margin-bottom: 4rem;
+  }
+
+  .appoint-section {
+    background: top center;
+    padding: 2rem 3rem 7rem;
+    border-radius: .5rem;
+
+    @include media-breakpoint-up(md) {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 7rem;
+      padding-right: 7rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 80%;
+    }
+
+    .top-icon {
+      width: 100%;
+      text-align: center;
+      z-index: 99999;
+
+      img {
+        pointer-events: none;
+      }
+    }
+  }
+
+  form {
+    background: bottom center repeat-x;
+    padding: 8rem 2.5rem 4.5rem;
+    margin-top: -3.6rem;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      border: 0;
+      outline: none;
+      border-bottom: 1px solid transparent;
+      padding: .5rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      margin-bottom: 4rem;
+    }
+
+    textarea {
+      display: block;
+      height: 22.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .inspiry-recaptcha-wrapper {
+      margin-bottom: 2.8rem;
+    }
+  }
+}
+
+#appointment-loader {
+  display: none;
+  margin: 0 2rem;
+}

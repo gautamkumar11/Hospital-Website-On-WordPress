@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MedicalPress Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Style Sheet-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/lightbox.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" >
+
+</head>
+<body>
+    <div class="container-fluid main-container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-4 sidebar-wrapper">
+                <div class="sidebar-inner-wrapper">
+
+                    <div class="title-area">
+                        <h1 class="site-title">MedicalPress</h1>
+                        <p class="site-description">By <a target="_blank" href="http://themeforest.net/user/InspiryThemes">Inspiry Themes</a></p>
+                    </div>
+
+                    <nav class="nav-main" id="nav" role="navigation">
+                        <ul class="main-menu">
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-cog"></i>Getting Started<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#introduction">Introduction</a></li>
+                                    <li><a class="sub-menu-item" href="#install-theme">Install Theme</a></li>
+                                    <li><a class="sub-menu-item" href="#install-plugins">Install Plugins</a></li>
+                                    <li><a class="sub-menu-item" href="#install-child-theme">Install Child Theme</a></li>
+                                    <li><a class="sub-menu-item" href="#auto-import-contents">Auto Import Demo Contents</a></li>
+                                    <li><a class="sub-menu-item" href="#import-xml">Manual Import Demo Contents</a></li>
+                                    <li><a class="sub-menu-item" href="#import-theme-options">Manual Import Theme Options</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-home"></i>Home and News Pages<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#create-home">Create Home Page</a></li>
+                                    <li><a class="sub-menu-item" href="#create-news">Create News Page</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-reading">Configure Reading Settings</a></li>
+                                    <li><a class="sub-menu-item" href="#configure-permalink">Configure Permalink Settings</a></li>
+                                    <li><a class="sub-menu-item" href="#default-slider">Set Up Default Slider</a></li>
+                                    <li><a class="sub-menu-item" href="#revolution-slider">Set Up Revolution Slider</a></li>
+                                    <li><a class="sub-menu-item" href="#appointment-form">Set Up Appointment Form</a></li>
+                                    <li><a class="sub-menu-item" href="#features-section">Set Up Features Section</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-pencil"></i>Add Contents<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#add-news-pots">Add News Post</a></li>
+                                    <li><a class="sub-menu-item" href="#add-doctor">Add Doctor</a></li>
+                                    <li><a class="sub-menu-item" href="#add-testimonial">Add Testimonial</a></li>
+                                    <li><a class="sub-menu-item" href="#add-faq">Add FAQ</a></li>
+                                    <li><a class="sub-menu-item" href="#add-service">Add Service</a></li>
+                                    <li><a class="sub-menu-item" href="#add-gallery-item">Add Gallery Item</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-file"></i>Create Pages<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#doctors-page">Doctors Page</a></li>
+                                    <li><a class="sub-menu-item" href="#services-page">Services Page</a></li>
+                                    <li><a class="sub-menu-item" href="#gallery-page">Gallery Page</a></li>
+                                    <li><a class="sub-menu-item" href="#faqs-page">FAQs Page</a></li>
+                                    <li><a class="sub-menu-item" href="#full-width-page">Full Width Page</a></li>
+                                    <li><a class="sub-menu-item" href="#appointment-page">Appointment Page</a></li>
+                                    <li><a class="sub-menu-item" href="#contact-page">Contact Page</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-shopping-cart"></i>Shop<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#woocommerce-shop">WooCommerce Shop</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-star"></i>Widgets<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#twitter-widget">Twitter Widget</a></li>
+                                    <li><a class="sub-menu-item" href="#newsletter-widget">Newsletter Sign Up Widget</a></li>
+                                    <li><a class="sub-menu-item" href="#tabs-widget">Tabs Widget</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-leaf"></i>Other Features<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#sticky-header">Sticky Header</a></li>
+                                    <li><a class="sub-menu-item" href="#google-recaptcha">Google reCAPTCHA</a></li>
+                                    <li><a class="sub-menu-item" href="#two-cols-menu">Two Columns Menu</a></li>
+                                    <li><a class="sub-menu-item" href="#shortcodes">Shortcodes</a></li>
+                                    <li><a class="sub-menu-item" href="#translation">Translation</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="menu-item">
+                                    <span class="main-menu-item">
+                                        <i class="glyphicon glyphicon-edit"></i>Modify Theme<span class="glyphicon glyphicon-chevron-right"></span>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a class="sub-menu-item" href="#modify-styles">Modify Styles</a></li>
+                                    <li><a class="sub-menu-item" href="#modify-theme-options">Modify Theme Options</a></li>
+                                    <li><a class="sub-menu-item" href="#modify-meta-boxes">Modify Meta Boxes</a></li>
+                                    <li><a class="sub-menu-item" href="#hire-customization">Hire Customization Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div><!-- inner wrapper -->
+            </div><!-- sidebar wrapper -->
+
+
+            <div class="col-lg-9 col-md-8 col-sm-7">
+
+                <main class="page-content"  role="main">
+                
+                    <article class="hentry" id="introduction">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Introduction</h1>
+                            <p>This documentation is last updated on 6th October 2015.</p>
+                            <p>Thank you for purchasing MedicalPress WordPress Theme . If you have any question that is beyond the scope of this documentation, Please feel free to create a support ticket using <a href="http://support.inspirythemes.com/" target="_blank">Our Support Site</a>.</p>
+                            <p class="bg-warning text-warning">
+                                <strong>Disclaimer:</strong><br/> We offer limited support for theme customers. We only provide support for our themes and their core features. We cannot guarantee our themes will work properly with all third party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The MedicalPress WordPress theme is presented as it is.
+                            </p><br/>
+                            <h4>Themeforest Item Purchase Code to Signup on Support Site</h4>
+                            <p>Please visit <a target="_blank" href="http://support.inspirythemes.com/knowledgebase/how-to-get-themeforest-item-purchase-code/">this knowledge base article</a> to learn about how to get item purchase code from themeforest to signup on our support site.</p>
+                            <br/>
+                            <h4>Updating WordPress Theme</h4>
+                            <p>If this is a theme update and you want to apply it on your existing installation then please visit <a target="_blank" href="http://support.inspirythemes.com/knowledgebase/better-way-to-update-wordpress-theme/">this knowledge base article</a> to learn about a better way to update your theme</p>
+                            <br/>
+                            <p><strong>If you like this theme, Please support us by rating this theme with 5 stars (<a data-lightbox="how-to-rate-theme" href="how-to-rate-theme.png" >How to rate?</a>)</strong>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="install-theme">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Install Theme</h1>
+                            <p>In start you must have a working version of WordPress already installed. For information in regard to installing the WordPress CMS, please see the WordPress Codex <a target="_blank" href="http://codex.wordpress.org/Installing_WordPress">Installing WordPress</a></p>
+                            <p>Once you have a working of version of WordPress, you need to download <a data-lightbox="all-files" href="assets/common-images/all-files.png">All Files and Documentation</a> from themeforest and extract the downloaded zip to get various files including <strong>inspiry-medicalpress.zip</strong>.</p>
+
+                            <h4>Install Theme Via WordPress Dashboard</h4>
+                            <img src="assets/medical-press/install/1.png" alt="">
+
+                            <ol>
+                                <li>Go to 'Appearance &gt; Themes' section</li>
+                                <li>Click 'Add New' and select the 'Upload Theme' option </li>
+                                <li>Choose the <strong>inspiry-medicalpress.zip</strong> file and press 'Install Now'</li>
+                                <li>Once the theme is uploaded you need to activate it.</li>
+                            </ol>
+                            <p class="bg-info text-info">
+                                if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.
+                            </p>
+
+                            <h3>Install Theme Via FTP</h3>
+                            <ol>
+                                <li>Access your hosting server using an ftp client like <a target="_blank" href="https://filezilla-project.org/">FileZilla</a></li>
+                                <li>Go to the 'wp-content/themes' folder of your WordPress installation</li>
+                                <li>Extract the <strong>inspiry-medicalpress.zip</strong> file and put the <strong>inspiry-medicalpress</strong> folder in 'wp-content/themes/' folder</li>
+                                <li>Go to 'WordPress Dashboard &gt; Appearance &gt; Themes' section to activate the theme</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="install-plugins">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Install Plugins</h1>
+
+                            After you have installed and activated the theme, there'll be a list of <strong>required</strong> plugins at the top of the WordPress dashboard. <br><br>
+
+                            <img src="assets/medical-press/install/2.png" alt=""><br><br>
+
+                            If you already hide it out, you can go to <strong>'Appearance &gt; Install Plugins'</strong> section instead. <br><br>
+
+                            So, you need to install and activate these plugins as demonstrated below.
+
+                            <h3>Step 1</h3>
+
+                            <img src="assets/medical-press/install/2-0.png" alt=""><br><br>
+
+                            <img src="assets/medical-press/install/2-1.png" alt=""><br><br>
+
+                            <h3>Step 2</h3>
+
+                            <img src="assets/medical-press/install/2-2.png" alt=""><br><br>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="install-child-theme">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Install Child Theme</h1>
+                            <p>It is better to use child theme as if you need to modify anything you modify in child theme only. This way you can easily update your parent theme whenever new update becomes available on themeforest. You can read more about child theme from <a target="_blank" href="http://codex.wordpress.org/Child_Themes">here.</a> </p>
+                            <p>To install child theme, you need to upload the <strong>inspiry-medicalpress-child.zip</strong> and activate it in the same way as you uploaded and activated the parent theme's <strong>inspiry-medicalpress.zip</strong>.</p>
+                        </div>
+                    </article>
+
+					<article class="hentry" id="auto-import-contents">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Auto Import Demo Contents</h1>
+                            <p>Demo Importer will help you setup your site like the theme demo, With only one click.</p>
+
+                        	<p>
+                        		<strong>Note:</strong> Just make sure all the required plugins are installed.
+                        	</p>
+
+                        	<p>
+                        		Go to <strong>Theme Options &gt; Demo Importer</strong> and press <strong>Import Demo</strong> button, As pointed in screen shot below.
+                                <strong>Now wait, It can take few minutes as images are fetched from remote server.</strong> You can visit your site once done.
+                                <br/>
+                                <br/>
+                                Some time import process can become freezed/halted due to delays in fetching data from remote server.
+                                You can verify this by visiting media library in a new tab and analysing the number of images imported.
+                                In this case, Simply refresh theme options and re-click the demo import button as it will not add duplicate entries
+                                and simply resume from where it halted last time. It only adds duplicate entries in menu and those can be removed easily.
+                                <br/>
+                                <br/>
+                                If demo import process totally fails then you can try fallback demo import as that is hosted on a different server.
+                                <br/>
+                                <br/>
+                                For any further help you can create a support ticket on our support site.
+                        	</p>
+
+                            <img src="assets/medical-press/install/14.png" alt=""/><br/><br/>
+
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="import-xml">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Import XML for Demo Contents</h1>
+                            <p class="bg-info text-info">
+                                You do not need to follow this section if you have already imported demo contents using <strong>Auto Import Demo Contents</strong> feature.
+                            </p>
+                            <p>
+                                Importing demo contents and making your site one step closer to the theme demo requires following steps.
+                                <ol>
+                                    <li>Importing XML file</li>
+                                    <li>Configuring Menus</li>
+                                </ol>
+                            </p>
+                            <p>Look for <strong>Import XML</strong> folder in unzipped package downloaded from themeforest and use the XML within it.
+                                <br/> Go to the <strong>WordPress Admin &gt; Tools &gt; Import </strong> and click <strong>WordPress</strong> as displayed in image below.</p>
+                            <img src="assets/medical-press/install/4.png" alt=""/><br/><br/>
+                            <p>At 1st time you need to install WordPress importer plugin</p>
+                            <img src="assets/medical-press/install/5.png" alt=""/><br/><br/>
+                            <p>Once installed you need to activate the plugin and run the importer.</p>
+                            <img src="assets/medical-press/install/6.png" alt=""/><br/><br/>
+                            <p>Select the XML file from <strong>demo</strong> directory under <strong>Import XML</strong> directory in unzipped package that you have downloaded from themeforest.</p>
+                            <img src="assets/medical-press/install/7.png" alt=""/><br/><br/>
+                            <p>
+                                After importing XML file.
+                                <ol>
+                                    <li>Assign posts to an existing author.</li>
+                                    <li>Mark the checkbox to download and import file attachments</li>
+                                    <li>Click 'Submit' button</li>
+                                </ol>
+                            </p>
+                            <img src="assets/medical-press/install/8.png" alt=""/><br/><br/>
+                            <p>After that is done, you will have bunch of posts, pages, doctors, gallery items, services and other contents as on the theme demo.</p>
+                            <img src="assets/medical-press/install/9.png" alt=""/><br/><br/>
+                            <p>Next step is to configure menu.</p>
+                            <h3>Configure Menus</h3>
+                            <p>Navigate to <strong>Appearance &gt; Menus</strong> and use the Already Imported Menu from XML and assign it to theme location "Main Menu" from <strong>Menu Settings</strong> section below menu. After that save the menu. As pointed in screenshot below.</p>
+                            <img src="assets/medical-press/install/10.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+
+                    <article class="hentry" id="import-theme-options">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Import Theme Options</h1>
+                            <p>
+                                There are two ways to import demo theme options.
+                            </p>
+                            <h3>1st Way - Import from File</h3>
+                            <ol>
+                                <li>Go to <strong>WordPress Admin &gt; Theme Options &gt; Import/Export</strong></li>
+                                <li>Click 'Import from file' button, It will display an import text box.</li>
+                                <li>Look for file named "demo-theme-options-for-import.txt" into <strong>Import Theme Options</strong> folder in unzipped package downloaded from themeforest</li>
+                                <li>Open the file in a text editor and copy all its contents.</li>
+                                <li>Paste all those contents into import text box as displayed below. <br>
+                                    <img src="assets/medical-press/install/12-1.png" alt=""><br><br>
+                                </li>
+                                <li>Press 'Import' button</li>
+                                <li>Press 'Save Changes' button once the theme options are imported.</li>
+                            </ol>
+
+                            <h3>2nd Way - Import from URL</h3>
+                            <ol>
+                                <li>Go to <strong>WordPress Admin &gt; Theme Options &gt; Import/Export</strong></li>
+                                <li>Click 'Import from URL' button</li>
+                                <li>Copy this import URL and paste it into the URL field
+                                    <code class="url">
+                                        http://medicalpress-min.inspirythemes.biz/wp-admin/admin-ajax.php?action=redux_download_options-redux_demo&secret=19a70075b0eb105a5530ed121e177ee9
+                                    </code>
+                                    <br>
+                                    <img src="assets/medical-press/install/12.png" alt=""><br><br>
+                                </li>
+                                <li>Press 'Import' button</li>
+                                <li>Press 'Save Changes' button once the theme options are imported.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+
+                    <article class="hentry" id="create-home">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Create Home Page</h1>
+                            <p class="bg-info text-info">
+                                In case of imported XML the home page is already created and you do not need to follow this section.
+                            </p>
+                            <p>To set up the Home page you need to create a new page,<br/><br/>
+                                Go to <strong>Pages > Add New</strong>. You can give this page a title &quot;Home&quot; yet you do not need to include any contents for now.
+                                <br/><br/> Select the “Home Template” template from the Page Attributes section, as displayed in screen shot below and click <strong>“Publish”</strong>.</p>
+                            <img src="assets/medical-press/pages/1.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="create-news">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Create News Page</h1>
+                            <p class="bg-info text-info">
+                                In case of imported XML the news page is already created and you do not need to follow this section.
+                            </p>
+                            <p>To set up the News page you need to create a new page,<br/><br/>
+                                Go to <strong>Pages > Add New</strong>. You can give this page a title &quot;News&quot; yet you do not need to include any contents for now.
+                                <br/><br/> Select the “Default Template” template from the Page Attributes section, as displayed in screen shot below and click <strong>“Publish”</strong>.</p>
+                            <img src="assets/medical-press/pages/2.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-reading">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Configure Reading Settings</h1>
+                            <p>I am assuming that you have imported the XML successfully and you have home page and news page available for use. If this is not the case then simply create a new page using <strong>Home Template</strong> and name it as Home after that create another page using default template and name it as News.</p>
+                            <p>To configure reading settings you need to visit <strong>WordPress Admin &gt; Settings &gt; Reading</strong> and choose that front page displays as static page. Then select Home as Front Page and News as Posts Page. As, displayed in screen shot below.</p>
+                            <img src="assets/medical-press/install/11.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="configure-permalink">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Configure Permalink Settings</h1>
+                            <p> To configure permalink settings visit <strong>WordPress Admin &gt; Settings &gt; Permalinks</strong> and configure it as displayed in image below.</p>
+                            <img src="assets/medical-press/install/13.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="default-slider">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Set Up Default Slider</h1>
+                            <p> To set up default slider visit <strong>WordPress Admin &gt; Theme Options &gt; Home</strong> and configure the related settings as pointed in screen shot below.</p>
+                            <img src="assets/medical-press/slider/1.png" alt=""/><br/><br/>
+                            <p> After that you can start adding slides one by one as displayed in screen shot below.
+                                <br/> Once you are done adding slides, save the theme options and visit the homepage to view the resulted slider.</p>
+                            <p class="bg-info text-info">
+                                MedicalPress demo slider images are already imported with XML. So if you want, you can simply select those from Media Library to quickly test the theme in start.
+                            </p>
+                            <img src="assets/medical-press/slider/2.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="revolution-slider">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Set Up Revolution Slider</h1>
+                            <p>
+                                To set up revolution slider you need to install revolution slider plugin that comes as part of the theme package and its files exits in <strong>Plugins/Revolution Slider/</strong> folder in the unzipped package.
+                                <ol>
+                                    <li>Go to <strong>Plugins &gt; Add New &gt; Upload</strong></li>
+                                    <li>
+                                        Select the <strong>revslider.zip</strong> file from <strong>Plugins/Revolution Slider/</strong> folder and press <strong>Install Now</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/slider/3.png" alt=""/><br/><br/>
+                                    </li>
+                                    <li>
+                                        Activate the plugin after the install.
+                                        <br/><br/>
+                                        <img src="assets/medical-press/slider/4.png" alt=""/><br/><br/>
+                                    </li>
+                                    <li>
+                                        Now, Go to <strong>Revolution Slider</strong> and press import slider.
+                                        <br/><br/>
+                                        <img src="assets/medical-press/slider/5.png" alt=""/><br/><br/>
+                                    </li>
+                                    <li>
+                                        Upload <strong>medical_press.zip</strong> from <strong>Plugins/Revolution Slider/Slider Import Zip/</strong> folder and press <strong>Import Slider</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/slider/6.png" alt=""/><br/><br/>
+                                    </li>
+                                    <li>
+                                        Once done copy the alias <em>medical_press</em> and paste it into slider revolution related theme options.
+                                        <br/><br/>
+                                        <img src="assets/medical-press/slider/7.png" alt=""/><br/><br/>
+                                    </li>
+                                    <li>
+                                        Save the changes in theme options and visit home page to test revolution slider.
+                                    </li>
+                                </ol>
+                            </p>
+                            <p class="bg-info text-info">
+                                <strong>Can I use the theme purchase code to activate slider revolution ?</strong>
+                                <br/><br/>
+                                Theme purchase code cannot be used for slider revolution activation and slider revolution author do not allow the theme authors like me to provide the extended license purchase code for plugin as part of the theme download package.
+                                <br/><br/>
+                                So, if you need to update slider revolution automatically OR you need to get some support related to slider revolution then you have to purchase it separately.
+                                <br/><br/>
+                                I will always try to provide the latest version of slider revolution plugin with a theme update. So, I do not recommend you to purchase it separately.
+                                <br/><br/>
+                                Thanks.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="appointment-form">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Set Up Appointment Form</h1>
+                            <p>To set up appointment form visit <strong>WordPress Admin &gt; Theme Options &gt; Home</strong> and enable the appoint form as pointed in screen shot below.</p>
+                            <img src="assets/medical-press/appointment/1.png" alt=""/><br/><br/>
+                            <p>After that you need to provide your email address to receive appointment request messages.</p>
+                            <p class="bg-warning text-warning">
+                                <strong>Note:</strong> The appointment form will not be displayed if email field is empty.
+                            </p>
+                            <img src="assets/medical-press/appointment/2.png" alt=""/><br/><br/>
+                            <p>
+                                After setting up above mentioned mandatory fields you can choose the appointment form design that you want to use and provide the related information.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="features-section">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Set Up Features Section</h1>
+                            <p>To set up features section, Go to <strong>WordPress Admin &gt; Theme Options &gt; Home &gt; Home - Features</strong> and configure the related options. Hopefully all the options are easy to understand.</p>
+                            <p class="bg-info text-info">
+                                <strong>Feature Icons:</strong>
+                                Feature icons for 2nd and 3rd variation can be found in <strong>images/features-icons/</strong> folder in <strong>inspiry-medicalpress</strong> folder.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-news-pots">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add News Post</h1>
+
+                            Go to <strong>WordPress Admin &gt; Posts &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the post title</li>
+                                <li>
+                                    Select the related post format <br/><br/>
+                                    <img src="assets/medical-press/contents/3.png" alt=""/><br/><br/>
+                                    <p class="bg-info text-info">
+                                        <strong>Post Formats and Related Meta Boxes:</strong><br/>
+                                        This theme supports various post formats. So, when you select a post format look out for related meta boxes that will appear after your selection. You need to fill out those meta boxes with related information, so that your post can appear in best possible design.
+                                    </p>
+                                </li>
+                                <li>Enter the post contents if any and add MORE tag after few lines <br/><br/>
+                                    <img src="assets/medical-press/contents/2.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Provide the featured image. The image should have minimum width of 732px. Its height is flexible so you can upload the image of any height.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/1.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Publish the post once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-doctor">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Doctor</h1>
+
+                            Go to <strong>WordPress Admin &gt; Doctors &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the doctor name <br/><br/>
+                                    <img src="assets/medical-press/contents/4.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter the text contents about doctor <br/><br/>
+                                    <img src="assets/medical-press/contents/5.png" alt=""/><br/><br/></li>
+                                <li>Select or Add the related department <br/><br/>
+                                    <img src="assets/medical-press/contents/6.png" alt=""/><br/><br/></li>
+                                <li>
+                                    Provide the featured image. The image should have minimum width of 670px and minimum height of 500px
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/7.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Provide the doctor related information in <strong>Doctor Information</strong> meta box<br/><br/>
+                                    <img src="assets/medical-press/contents/8.png" alt=""/><br/><br/></li>
+                                <li>Publish the doctor post once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-testimonial">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Testimonial</h1>
+
+                            Go to <strong>WordPress Admin &gt; Testimonials &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the patient name <br/><br/>
+                                    <img src="assets/medical-press/contents/9.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Provide the featured image. The image should have minimum width of 130px and minimum height of 130px
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/10.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Provide the testimonial related information in <strong>Testimonial</strong> meta box<br/><br/>
+                                    <img src="assets/medical-press/contents/11.png" alt=""/><br/><br/></li>
+                                <li><strong>Publish</strong> the testimonial once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-faq">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add FAQ</h1>
+
+                            Go to <strong>WordPress Admin &gt; FAQs &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the question text in title field <br/><br/>
+                                    <img src="assets/medical-press/contents/12.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select or add a new FAQ Group.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/13.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Provide the Answer text as contents.<br/><br/>
+                                    <img src="assets/medical-press/contents/14.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the FAQ once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-service">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Service</h1>
+
+                            Go to <strong>WordPress Admin &gt; Services &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the service name <br/><br/>
+                                    <img src="assets/medical-press/contents/15.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter the text contents about service <br/><br/>
+                                    <img src="assets/medical-press/contents/16.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Provide the featured image. The image should have <strong>minimum width of 848px and minimum height of 518px</strong>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/17.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the service once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="add-gallery-item">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Gallery Item</h1>
+                            Go to <strong>WordPress Admin &gt; Gallery Items &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the gallery item name <br/><br/>
+                                    <img src="assets/medical-press/contents/18.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Upload the gallery images in <strong>Gallery Settings</strong> meta box. An image should have <strong>minimum width of 670px and minimum height of 500px</strong>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/19.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Provide the featured image. It is better to choose the one image from already uploaded gallery images. The image should have <strong>minimum width of 670px and minimum height of 500px</strong>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/contents/20.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select or Add a new Gallery Item Type <br/><br/>
+                                    <img src="assets/medical-press/contents/21.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter the text contents about gallery item if you want to. <br/><br/>
+                                    <img src="assets/medical-press/contents/22.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the gallery item once it is ready.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="doctors-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Doctors Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/3.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select the appropriate page template for doctors. <br/><br/>
+                                    There are 3 templates for doctors page.
+                                    <ol>
+                                        <li>2 Columns Doctors Template</li>
+                                        <li>3 Columns Doctors Template</li>
+                                        <li>4 Columns Doctors Template</li>
+                                    </ol>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/4.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter some text contents if you want to. <br/><br/>
+                                    <img src="assets/medical-press/pages/5.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="services-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Services Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/6.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select the appropriate page template for services. <br/><br/>
+                                    There are 3 templates for services page.
+                                    <ol>
+                                        <li>1 Columns Services Template</li>
+                                        <li>2 Columns Services Template</li>
+                                        <li>3 Columns Services Template</li>
+                                    </ol>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/7.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="gallery-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Gallery Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/8.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select the appropriate page template for gallery. <br/><br/>
+                                    There are 3 templates for gallery page.
+                                    <ol>
+                                        <li>2 Columns Gallery Template</li>
+                                        <li>3 Columns Gallery Template</li>
+                                        <li>4 Columns Gallery Template</li>
+                                    </ol>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/9.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="faqs-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add FAQs Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/10.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select the appropriate page template for FAQs page. <br/><br/>
+                                    There are 2 templates for FAQs page.
+                                    <ol>
+                                        <li>FAQs Full Width Template</li>
+                                        <li>FAQs Template</li>
+                                    </ol>
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/11.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter some text contents if you want to. <br/><br/>
+                                    <img src="assets/medical-press/pages/12.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="full-width-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Full Width Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/13.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select <strong>Full Width Template</strong> from page attributes
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/14.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter text contents. <br/><br/>
+                                    <img src="assets/medical-press/pages/15.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="appointment-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Appointment Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/16.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select <strong>Appointment Template</strong> from page attributes &gt; template.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/18.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter text contents. <br/><br/>
+                                    <img src="assets/medical-press/pages/17.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    <p class="bg-info text-info">
+                                        The appointment form will not work unless you provide appointment email address in related theme options. <strong>WordPress Admin &gt; Theme Options &gt; Home</strong><br/><br/>
+                                        <img src="assets/medical-press/appointment/2.png" alt=""/>
+                                    </p>
+                                </li>
+                                <li>After publishing you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong></li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="contact-page">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Add Contact Page</h1>
+                            Go to <strong>WordPress Admin &gt; Pages &gt; Add New</strong>
+                            <ol>
+                                <li>Provide the page title <br/><br/>
+                                    <img src="assets/medical-press/pages/19.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Select <strong>Contact Template</strong> from page attributes &gt; template.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/pages/20.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Enter text contents. <br/><br/>
+                                    <img src="assets/medical-press/pages/21.png" alt=""/><br/><br/>
+                                </li>
+                                <li><strong>Publish</strong> the page once it is ready.</li>
+                                <li>
+                                    To configure the contact form, contact details, social icons and google map go to
+                                    <strong>WordPress Admin &gt; Theme Options &gt; Contact</strong>
+                                    <p class="bg-info text-info">
+                                        The contact form will not work unless you provide contact email address in related theme options.<br/><br/>
+                                        <img src="assets/medical-press/pages/22.png" alt=""/>
+                                    </p>
+                                </li>
+                                <li>After publishing and configuring related theme options, you need to add the newly created page in menu from <strong>WordPress Admin &gt; Appearance &gt; Menus </strong></li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="twitter-widget">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to set up Twitter Widget</h1>
+                            <p>Latest tweets widget uses <a target="_blank" href="https://wordpress.org/plugins/display-tweets-php/">Display Tweets Plugin</a></p>
+                            To set up twitter widget, Go to <strong>WordPress Admin &gt; Plugins &gt; Installed Plugins</strong>
+                            <ol>
+                                <li>Make sure the <strong>Display Tweets</strong> plugin is already installed. If it is not already installed then install it.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/1.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Now, you need the twitter app's consumer key, consumer secret, access token and access token secret for twitter authentication.
+                                    <br/>
+                                    To get all these keys, You need to register a new twitter app from <a target="_blank" href="https://apps.twitter.com/app/new">following url</a>
+                                    <br/>
+                                    After registering app and generating access token you will have api keys and access token as displayed below
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/3.png" alt=""/><br/><br/>
+                                    API Key is basically consumer key and API secret is consumer secret.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/4.png" alt=""/><br/><br/>
+
+                                </li>
+                                <li>After installing and activating the plugin, Go to <strong>Settings &gt; Twitter Feed</strong> and use the keys that you just got from twitter app.
+                                    <br/>
+                                    Save the settings after configuring the keys and related options.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/2.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Now go to <strong>Appearance &gt; Widgets</strong> and look for <strong>Tweets</strong> widget.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/5.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Use that tweets widget in a footer column. Provide it a title and save the widget settings.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/6.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Now check out the front end of your site and you will have a twitter widget working for your site.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/7.png" alt=""/><br/><br/>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="newsletter-widget">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to set up Newsletter Sign Up Widget</h1>
+                            <p>Newsletter sign up widget uses <a target="_blank" href="https://wordpress.org/plugins/wp-email-capture/">WP Email Capture</a> Plugin</p>
+                            To set this widget, Go to <strong>WordPress Admin &gt; Plugins &gt; Installed Plugins</strong>
+                            <ol>
+                                <li>Make sure the <strong>WP Email Capture</strong> plugin is already installed. If it is not already installed then install it.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/8.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    This widget requires two pages to work properly.
+                                    <ol>
+                                        <li><strong>Thanks</strong> page as displayed in <a target="_blank" href="http://inspirythemesdemo.com/medicalpress/thanks/">This Link</a></li>
+                                        <li><strong>Confirmation</strong> page as displayed in <a target="_blank" href="http://inspirythemesdemo.com/medicalpress/confirmation/">This Link</a></li>
+                                    </ol>
+                                    <br/>
+                                    To learn about how to create a page visit the <strong>Create Pages &gt; Full Width Page</strong> section of this documentation.
+                                    <br/><br/>
+                                </li>
+                                <li>After installing and activating the plugin, Go to <strong>Settings &gt; WP Email Capture</strong> and Provide the 'thanks' page URL in the 1st field
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/9.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Provide the 'confirmation' page URL in the 2nd field
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/10.png" alt=""/><br/><br/>
+                                </li>
+                                <li>After that configure the related options and save the changes.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/11.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Now go to <strong>Appearance &gt; Widgets</strong> and look for <strong>WP Email Capture</strong> widget.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/12.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Use that widget in a footer column. Provide it a title, widget text and save the widget settings.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/13.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Now check out the front end of your site and you will have the newsletter sign up widget working for your site.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/14.png" alt=""/><br/><br/>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="tabs-widget">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Tabs Widget</h1>
+                            <ol>
+
+                                <li>Go to <strong>Appearance &gt; Widgets</strong> and look for <strong>Medical - Tabs</strong> widget.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/15.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Use that widget in sidebar. Provide the tabs titles and configure the related settings.
+                                    <br/>
+                                    Save the widget settings after you are done.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/16.png" alt=""/><br/><br/>
+                                </li>
+                                <li>Now check the front end of your site and you will have the tabs widget working in your site's sidebar.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/widgets/17.png" alt=""/><br/><br/>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="sticky-header">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Sticky Header</h1>
+                            <p>
+                                To enable sticky header go to <strong>Theme Options &gt; General</strong> as pointed in image below.
+                            </p>
+                            <img src="assets/medical-press/features/1.png" alt=""/><br/><br/>
+                            <p>
+                                Look for the <strong>Sticky Header</strong> option in this section. Enable it and <strong>Save Changes</strong>.
+                            </p>
+                            <img src="assets/medical-press/features/2.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="google-recaptcha">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Google reCAPTCHA</h1>
+                            <p>
+                                To configure Google reCAPTCHA you need to <a target="_blank" href="https://www.google.com/recaptcha/intro/index.html">Visit Google reCAPTCHA Site</a> and get public and private keys for your website.
+                                After that use those keys to fill the related fields in <strong>Theme Options &gt; Contact </strong>, As displayed below.
+                            </p>
+                            <img src="assets/medical-press/features/3.png" alt=""/><br/><br/>
+                            <p>
+                                Now your reCAPTCHA keys are configured and you just need to enable reCAPTCHA on the required forms.
+                                <br/><br/>
+                                To enable it on Contact form look, for <strong>reCAPTCHA in Contact Form</strong> option and enable it.
+                            </p>
+                            <img class="light-border" src="assets/medical-press/features/4.png" alt=""/><br/><br/>
+                            <p>
+                                To enable it on Appointment forms, Got to <strong>Theme Options &gt; Home</strong> and look for <strong>reCAPTCHA in Appointment Form*</strong>.
+                            </p>
+                            <img class="light-border" src="assets/medical-press/features/5.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="two-cols-menu">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Two Columns Menu</h1>
+                            <p>
+                                To display two columns dropdown menu ( sub-menu ), Simply add <strong>two-col-menu</strong> class to parent menu item. As displayed in screen shot below.
+                            </p>
+                            <img class="light-border" src="assets/medical-press/features/6.png" alt=""/><br/><br/>
+                            <p>
+                                After that, your menu will look like this.
+                            </p>
+                            <img class="light-border" src="assets/medical-press/features/7.png" alt=""/><br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="shortcodes">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Shortcodes</h1>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>1st List Style</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/1.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/1-1.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>2nd List Style</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/2.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/2-2.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>3rd List Style</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/3.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/3-3.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>Buttons</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/4.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/4-4.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>Messages</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/5.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/5-5.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>Tabs</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/6.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/6-6.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>Accordions</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/7.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/7-7.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4>Toggles</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/8.png" alt=""/>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <strong>Output Example</strong>
+                                        <br/><br/>
+                                        <img src="assets/medical-press/shortcodes/8-8.png" alt=""/>
+                                    </div>
+                                </div>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <h4>Columns</h4>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <strong>2 Columns Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img class="light-border" src="assets/medical-press/shortcodes/9-1.png" alt=""/>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <strong>3 Columns Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img class="light-border" src="assets/medical-press/shortcodes/9-2.png" alt=""/>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <br/><br/>
+
+                                    <div class="col-md-6">
+                                        <strong>4 Columns Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img class="light-border" src="assets/medical-press/shortcodes/9.png" alt=""/>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <strong>6 Columns Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img class="light-border" src="assets/medical-press/shortcodes/9-3.png" alt=""/>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                    <br/><br/>
+
+                                    <div class="col-md-6">
+                                        <strong>Mix Columns Shortcode Example</strong>
+                                        <br/><br/>
+                                        <img class="light-border" src="assets/medical-press/shortcodes/9-4.png" alt=""/>
+                                    </div>
+
+                                </div>
+                                <br/>
+                                <hr/>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="translation">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Translating The Theme</h1>
+                            This theme is translation ready but the support of RTL languages is not available for now.
+                            <ol>
+                                <li>For translation to only one language please visit <a target="_blank" href="http://support.inspirythemes.com/knowledgebase/how-to-translate-your-theme-to-your-language/">This Knowledge Base Article</a></li>
+                                <li>For translation to multiple languages you can use <a target="_blank" href="http://wpml.org/">WPML Plugin</a></li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="modify-styles">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to Modify Styles</h1>
+                            There are various options available to modify styles in this theme.
+                            <ol>
+                                <li><strong>Theme Options</strong> - Go to 'Theme Options &gt; Styling' for various styling options.</li>
+                                <li><strong>Quick CSS</strong> - Go to 'Theme Options &gt; Styling &gt; Quick CSS' to write some short css.</li>
+                                <li><strong>Custom CSS in Child Theme</strong> - 'child-custom.css' file is provided in child theme to add major css changes.
+                                    <br/>
+                                    <img src="assets/medical-press/modify-theme/1.png" alt=""/>
+                                </li>
+                                <li><strong>Custom CSS in Parent Theme</strong> - if you are not using child theme then 'css/custom.css' file is provided in parent theme to add major css changes.
+                                    <br/>
+                                    <img src="assets/medical-press/modify-theme/2.png" alt=""/>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="modify-theme-options">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to Modify Theme Options</h1>
+                            This theme uses <a target="_blank" href="http://reduxframework.com/">redux framework</a> for theme options and related file reside in 'theme-options &gt; medical-config.php'
+                            <br/><br/>
+                            <img src="assets/medical-press/modify-theme/3.png" alt=""/>
+                            <br/><br/>
+                            If you want to modify theme options from child theme then you need to open the <strong>functions.php</strong> file in child theme and remove the comments around function named <strong>dynamic_section</strong>
+                            <br/><br/>
+                            Now, you can consult redux framework <a target="_blank" href="http://docs.reduxframework.com/">documentation</a> to learn about adding new sections and fields into theme options.
+                            <br/><br/>
+                            <img src="assets/medical-press/modify-theme/4.png" alt=""/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="modify-meta-boxes">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to Modify Meta Boxes</h1>
+                            This theme uses <a target="_blank" href="http://wordpress.org/plugins/meta-box/">Meta Box Plugin</a> for meta boxes and related file reside in 'meta-box &gt; config-meta-boxes.php'
+                            <br/><br/>
+                            <img src="assets/medical-press/modify-theme/6.png" alt=""/>
+                            <br/><br/>
+                            So, you can easily modify the code of existing meta boxes. Or you can add new meta boxes using <strong>framework_theme_meta</strong> filter in child theme.
+                            <br/><br/>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="hire-customization">
+                        <div class="entry-content">
+                            <h1 class="entry-title">Hire Customization Services</h1>
+                            <p>
+                                If you need some additional features or want modification in existing theme features then you can contact theme customization service providers like
+                                <a target="_blank" href="https://studio.envato.com/explore/wordpress-customization">Envato Studio</a> or
+                                <a target="_blank" href="https://codeable.io/">https://codeable.io/</a> or
+                                <a target="_blank" href="http://werkpress.com/">http://werkpress.com/</a>
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="hentry" id="woocommerce-shop">
+                        <div class="entry-content">
+                            <h1 class="entry-title">How to set up WooCommerce Shop</h1>
+                            <p>This theme uses <a target="_blank" href="https://wordpress.org/plugins/woocommerce/">WooCommerce Plugin</a> to provide shop related functionality.</p>
+                            <p>Please follow the steps below to setup your shop.</p>
+                            <ol>
+                                <li>Go to <strong>Plugins &gt; Add New</strong> and search for <strong>WooCommerce</strong> and install it as displayed in screen shot below.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/1.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    <strong>Activate Plugin</strong> once installed.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/2.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    <strong>Install WooCommerce Sample Pages</strong> after plugin activation.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/3.png" alt=""/><br/><br/>
+                                    It will add 4 pages ( Shop, Cart, Checkout and My Account ).
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/4.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Edit & Update ( <strong>Cart</strong> page, <strong>Checkout</strong> page and <strong>My Account</strong> page ) one by one and assign <strong>WooCommerce Template</strong> as page template.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/5.png" alt=""/><br/><br/>
+                                </li>
+                                <li>
+                                    Go to <strong>Appearance &gt; Menus</strong> and add Shop page into your desired menu. Save the menu after adding shop page.
+                                    <br/><br/>
+                                    <img src="assets/medical-press/shop/6.png" alt=""/><br/><br/>
+                                    Visit the shop page and you will find a message that no product is found. <br/><br/>
+                                </li>
+                                <li>
+                                    Now, You can add your own products or you can import dummy data to play with basic stuff. To <strong>Import Dummy Data</strong> you can follow <a href="http://docs.woothemes.com/document/importing-woocommerce-dummy-data/" target="_blank">this helping article</a>.
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+
+                </main>
+            </div>
+        </div>
+    </div><!-- site container end -->
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/purl.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>

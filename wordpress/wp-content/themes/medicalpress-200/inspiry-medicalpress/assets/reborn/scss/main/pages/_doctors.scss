@@ -1,0 +1,235 @@
+.doctors-page {
+  padding-bottom: 3rem;
+}
+
+.doctor {
+
+  &-common {
+
+    figure {
+      margin-bottom: 0;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &-grid {
+    margin-bottom: 3rem;
+
+    .entry-title {
+      margin-bottom: .5rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+
+    .entry-content {
+      padding: 2.5rem 3rem;
+    }
+
+    .doctor-departments {
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* Doctors Page styles
+/*------------------------------------------------------*/
+.doctors-single-page {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+}
+
+.single-side-content {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid transparent;
+
+  .entry-title {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 3rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  p {
+    margin-bottom: 3rem;
+    font-weight: 300;
+  }
+}
+
+.single-doctor-info {
+  margin-bottom: 6rem;
+
+  .doctor-title {
+    font-size: 2.4rem;
+    margin-bottom: .8rem;
+  }
+
+  figure {
+    margin-bottom: 3.6rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .doctor-departments {
+    margin-bottom: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .social-icon {
+    margin: 0 0 3rem;
+
+    a {
+      margin-right: 2rem;
+      font-size: 1.8rem;
+      line-height: 1;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.single-doctor-specialities {
+  padding: 3rem 2.5rem;
+  border: 1px solid transparent;
+
+  p {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    margin-right: 5%;
+    min-width: 25%;
+  }
+
+  span {
+    overflow: hidden;
+    width: 70%;
+    font-size: 1.4rem;
+  }
+}
+
+.related-doctors {
+  padding-top: 4rem;
+  margin-bottom: 6rem;
+
+  @include media-breakpoint-up(md) {
+
+    .doctor-grid{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.doctors-shortcode {
+
+  .hidden-sm {
+    margin-bottom: 50px;
+  }
+
+  .common-doctor {
+
+    .text-content {
+      padding: 0 15px 0;
+    }
+  }
+}
+
+.doctor-shortcode-post {
+  padding: 0;
+
+  .common-doctor {
+    margin-bottom: 20px;
+  }
+
+  .common-doctor figure {
+    margin-bottom: 0;
+  }
+
+  .text-content{
+    padding: 3rem 0;
+  }
+
+  .doctor-departments {
+    margin-bottom: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .social-icon a {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+
+  &.style-vertical {
+    margin-top: 5px;
+
+    @media (min-width: 567px) {
+      width: 40%;
+    }
+
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+
+    @media (min-width: 992px) {
+      width: 41%;
+    }
+  }
+
+  &.style-horizontal {
+
+    @media (min-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+.style-horizontal {
+
+  .for-border {
+    display: none;
+  }
+
+  @media (min-width: 767px) {
+
+    .text-content {
+
+      ul {
+        text-align: inherit;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    &.left {
+
+      .text-content {
+        padding-left: 0;
+        text-align: left;
+      }
+    }
+
+    &.right {
+
+      .text-content {
+        padding-right: 0;
+        text-align: right;
+      }
+    }
+  }
+}

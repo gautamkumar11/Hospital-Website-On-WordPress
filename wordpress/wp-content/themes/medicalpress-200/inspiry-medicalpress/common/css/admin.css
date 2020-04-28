@@ -1,0 +1,9 @@
+/*------------------------------------------------------*/
+/* Remove Redux Framework Notice
+/*------------------------------------------------------*/
+.redux-dev-mode-notice-container.redux-dev-qtip { display: none; }
+
+.theme-browser .theme .theme-actions, .theme-browser .theme.active .theme-actions{
+    top: auto;
+	bottom: -23px !important;
+}

@@ -1,0 +1,35 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: inherit;
+}
+
+.select2-container {
+
+  &--default {
+
+    .select2-search--dropdown .select2-search__field,
+    .select2-selection--single {
+      border-color: $mp-theme-border-color;
+    }
+
+    .select2-results__option[aria-selected=true] {
+      background-color: $mp-theme-border-color;
+    }
+
+    .select2-results__option[data-selected=true],
+    .select2-results__option--highlighted[aria-selected] {
+      background-color: $mp-theme-color-two;
+      color: #fff;
+    }
+  }
+}
+
+.widget.woocommerce .select2-container--default .select2-search--inline .select2-search__field {
+  background-color: #f7f7f7;
+  border-color: $mp-theme-border-color;
+}
+
+.select2-dropdown,
+.select2-container .select2-choice,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border-color: $mp-theme-border-color;
+}

@@ -1,0 +1,35 @@
+.pagination {
+  margin: 3.5rem auto 0;
+  text-align: center;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.pagination,
+.page-links {
+
+  span,
+  a {
+    @extend .btn-transition;
+    display: inline-block;
+    width: 4.4rem;
+    height: 4.4rem;
+    margin: 0 1px 2px;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 4.6rem;
+    text-align: center;
+  }
+}
+
+.page-links {
+
+  span,
+  a {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+  }
+}

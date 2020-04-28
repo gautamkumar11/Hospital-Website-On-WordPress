@@ -1,0 +1,25 @@
+.tabs {
+
+  .tab-head {
+    float: right;
+  }
+
+  .tab-post-listing {
+
+    figure {
+      float: right;
+      margin-right: 0;
+      margin-left: 15px;
+    }
+  }
+}
+
+.sidebar {
+
+  .tab-head {
+
+    + .tab-head {
+      border-left: none;
+    }
+  }
+}

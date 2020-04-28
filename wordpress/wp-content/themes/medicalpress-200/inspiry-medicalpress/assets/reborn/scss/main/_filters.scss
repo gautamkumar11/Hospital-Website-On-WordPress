@@ -1,0 +1,47 @@
+.filters {
+  @extend .list-unstyled;
+  padding-top: 2rem;
+  padding-bottom: 1.1rem;
+  margin-bottom: 0;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &-wrapper {
+    margin-bottom: 5.5rem;
+    border-bottom: 1px solid transparent;
+  }
+
+  > li {
+    float: left;
+    margin: 0 3rem 1rem 0;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: -2px;
+    }
+
+    a {
+      display: block;
+      position: relative;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+      color: inherit;
+
+      @include media-breakpoint-up(lg) {
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -10px;
+          margin-left: -4px;
+          border: 4px solid transparent;
+        }
+      }
+    }
+  }
+}

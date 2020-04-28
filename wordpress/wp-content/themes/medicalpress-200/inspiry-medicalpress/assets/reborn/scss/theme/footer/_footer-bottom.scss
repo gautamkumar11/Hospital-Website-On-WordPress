@@ -1,0 +1,29 @@
+.site-footer-bottom {
+  background-color: #262d33;
+  color: #798693;
+}
+
+.footer-social-nav {
+
+  a {
+
+    &:hover {
+      color: $mp-theme-color-one;
+    }
+  }
+
+  &-title {
+    color: #fff;
+  }
+}
+
+.site-info {
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: $mp-theme-color-one;
+    }
+  }
+}

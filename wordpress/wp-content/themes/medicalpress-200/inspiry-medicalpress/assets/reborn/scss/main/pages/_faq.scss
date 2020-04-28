@@ -1,0 +1,52 @@
+.faq-page {
+  padding-bottom: 5rem;
+}
+
+.toggle-main,
+.accordion-main {
+  margin-bottom: 3.5rem;
+}
+
+.toggle-main .toggle,
+.accordion-main .accordion {
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.toggle-main .toggle-title,
+.accordion-main .accordion-title {
+  margin: 0;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.toggle-main .toggle-title h3,
+.accordion-main .accordion-title h3 {
+  padding: 2rem 4rem 2rem 2rem;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+}
+
+.toggle-main .toggle-title .fa,
+.accordion-main .accordion-title .fa {
+  margin-right: 0;
+  font-size: 18px;
+  position: absolute;
+  top: 23px;
+  right: 23px;
+}
+
+.toggle-main .toggle-content,
+.accordion-main .accordion-content {
+  padding: 3.5rem 15px 1px;
+  margin: 0;
+  display: none;
+}
+
+.toggle-main .toggle.current .toggle-title,
+.accordion-main .accordion.current .accordion-title {
+  border: none;
+}

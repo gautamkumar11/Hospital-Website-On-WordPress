@@ -1,0 +1,71 @@
+.elements-box-shadow {
+  box-shadow: 0 4px 12px rgba(#212c37, .06);
+}
+
+.elements-box-shadow-hover {
+  box-shadow: 0 5px 32px rgba(#212c37, .2);
+}
+
+.owl-theme {
+
+  .owl-dots {
+
+    .owl-dot {
+
+      span {
+        background: #cbd2d7;
+        border-color: #fff;
+        box-shadow: 0 0 0 1px #cbd2d7;
+      }
+
+      &.active span,
+      &:hover span {
+        background: $mp-theme-color-two;
+      }
+    }
+  }
+}
+
+// Layout
+.inspiry-boxed-layout {
+
+  @media (min-width: 1200px) {
+
+    #page {
+      background-color: #fff;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+// Appointment Modal
+.appointment-modal {
+
+  &-form {
+    @extend .elements-box-shadow;
+    background-color: #fff;
+  }
+}
+
+td .ui-state-default {
+  background-color: #fff;
+}
+
+td .ui-state-active,
+td .ui-state-hover,
+td .ui-state-highlight,
+.ui-datepicker-header,
+.ui-datepicker-header .ui-state-hover {
+  background-color: $mp-theme-color-one;
+}
+
+.ui-datepicker td {
+  border-color: #e6ebf0;
+  background-color: #fff;
+}
+
+.ui-datepicker tr th:first-child,
+.ui-datepicker tr th:last-child {
+  border-left-color: #e6ebf0;
+  border-right-color: #e6ebf0;
+}

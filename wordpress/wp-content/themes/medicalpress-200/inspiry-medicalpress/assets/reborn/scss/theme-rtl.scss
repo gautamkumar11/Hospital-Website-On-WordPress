@@ -1,0 +1,181 @@
+/*!
+ * Main CSS v1.0
+ */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "main/custom";
+
+@include import_file('01', 'Header');
+
+.header-search-form-container {
+  border-right-color: #ecf1f2;
+}
+
+$mean-menu-base-color: #fff;
+$mean-menu-border-color: rgba($mean-menu-base-color, 0.1);
+
+.mean-container {
+
+  .mean-nav {
+
+    ul li a {
+
+      &.mean-expand {
+        border-right-color: $mean-menu-border-color !important;
+      }
+    }
+  }
+}
+
+@include import_file('02', 'Footer');
+
+.call-to-action {
+  @include gradient-x(#017e9d, #7ace4c, 0%, 100%);
+}
+
+@include import_file('03', 'Pages');
+
+.announcement .btn,
+.announcement input[type="submit"],
+.announcement .read-more,
+.home-services .btn,
+.home-services input[type="submit"],
+.home-services .read-more {
+
+  background-image: url('../images/icon-right-arrow-flipped.png');
+}
+
+.blog-page {
+
+  .format-quote blockquote.quote {
+
+    p {
+      border-right-color: #f47c7b;
+    }
+  }
+
+  .format-link {
+
+    .link-container {
+      border-right-color: #f47c7b;
+    }
+  }
+
+  blockquote {
+    border-right-color: #4dbed9;
+  }
+}
+
+.entry-content {
+
+  blockquote {
+    border-right-color: #86d0e4;
+  }
+}
+
+.news-shortcode {
+
+  .format-link {
+
+    .link-container {
+      border-right-color: #f47c7b;
+    }
+  }
+
+  blockquote {
+    border-right-color: #4dbed9;
+  }
+}
+
+.entry-content {
+  .tabs-nav {
+
+    li {
+      border-right-color: #dcdee4;
+    }
+    li:last-child {
+      border-left-color: #dcdee4;
+    }
+
+  }
+
+  .tabs-nav.vertical {
+
+    li {
+      border-right-color: #dcdee4;
+
+      &:last-child {
+        border-bottom-color: #dcdee4;
+      }
+    }
+  }
+}
+
+.arrow-list-one ul li {
+  background-image: url(../images/arrow-list-one-bg-flipped.png);
+}
+
+.arrow-list-two ul li {
+  background-image: url(../images/arrow-list-two-bg-flipped.png);
+}
+
+.alert-info {
+  border-right-color: darken(#d9edf7, 10%);
+}
+
+.alert-warning {
+  border-right-color: darken(#fcf8e3, 10%);
+}
+
+.alert-success {
+  border-right-color: darken(#dff0d8, 10%);
+}
+
+.alert-danger {
+  border-right-color: darken(#f2dede, 10%);
+}
+
+table {
+
+  thead {
+
+    tr {
+
+      th {
+        border-right-color: #5ab1c5;
+      }
+      th:first-child {
+        border-left-color: #66c9e0;
+      }
+      th:last-child {
+        border-right-color: #66c9e0;
+      }
+    }
+  }
+}
+
+.tab-var-one {
+  .nav-tabs > li {
+    border-right-color: #ffc118;
+  }
+}
+
+.tab-var-two {
+  .nav-tabs > li {
+    border-right-color: #de4c4a;
+
+  }
+}
+
+.tab-var-three {
+  .nav-tabs > li {
+    border-right-color: #2f93ab;
+  }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  border-right-color: $mp-theme-border-color;
+}
+
+

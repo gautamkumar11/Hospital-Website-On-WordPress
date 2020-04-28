@@ -1,0 +1,12 @@
+.call-to-action {
+  @include gradient-x(#7ace4c, #017e9d, 0%, 100%);
+  color: #fff;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: lighten($mp-theme-color-one, 20%);
+    }
+  }
+}

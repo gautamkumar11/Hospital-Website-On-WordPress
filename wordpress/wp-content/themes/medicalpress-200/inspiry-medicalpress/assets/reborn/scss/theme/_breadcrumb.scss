@@ -1,0 +1,15 @@
+.breadcrumb {
+  color: #d5e4ea;
+
+  .active {
+    color: #fff;
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

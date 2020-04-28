@@ -1,0 +1,19 @@
+/* 404 Styles */
+.jumbotron {
+
+  h1 {
+    color: $mp-theme-color-one;
+  }
+
+  span {
+    color: $mp-theme-color-two;
+  }
+
+  a {
+    color: $mp-theme-color-one;
+
+    &:hover {
+      color: $mp-theme-color-two;
+    }
+  }
+}

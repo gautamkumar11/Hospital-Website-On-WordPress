@@ -1,0 +1,60 @@
+.widget {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="search"] {
+    float: left;
+    width: 100%;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid transparent;
+    border-right: none;
+  }
+
+  button,
+  input[type="text"],
+  input[type="email"],
+  input[type="search"],
+  input[type="submit"] {
+    height: 5rem;
+  }
+
+  button,
+  input[type="submit"] {
+    width: 35%;
+    padding: 0;
+    border: 1px solid transparent;
+  }
+}
+
+.widget_product_search,
+.widget .search-form,
+.widget_search {
+
+  label {
+    display: none;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="search"] {
+    width: 81.5%;
+    margin-bottom: 0;
+  }
+
+  button,
+  input[type="submit"] {
+    width: 18.5%;
+    text-indent: -99999px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+}
+
+.wp-email-capture-error {
+  width: 100%;
+  background-color: transparent;
+  margin: 0 0 8px;
+  font-weight: normal;
+}

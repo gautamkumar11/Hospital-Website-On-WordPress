@@ -1,0 +1,16 @@
+.woocommerce {
+
+  .quantity .qty {
+    text-align: right;
+  }
+
+  .reset_variations {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  border-left: none;
+  border-right: 1px solid transparent;
+}

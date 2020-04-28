@@ -1,0 +1,28 @@
+.widget_calendar {
+  text-align: center;
+
+  table {
+    width: 100%;
+  }
+
+  caption {
+    padding: 0;
+    margin-bottom: 1.5rem;
+    caption-side: top;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  th,
+  td {
+    padding: .9rem .5rem;
+    border: 1px solid transparent;
+  }
+
+  a,
+  #today {
+    font-weight: 700;
+  }
+}

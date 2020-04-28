@@ -1,0 +1,19 @@
+.widget {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="search"] {
+    float: right;
+    border-right: 1px solid transparent;
+    border-left: none;
+  }
+}
+
+.widget_product_search,
+.widget .search-form,
+.widget_search {
+
+  input[type="submit"] {
+    text-indent: 99999px;
+  }
+}

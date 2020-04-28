@@ -1,0 +1,19 @@
+.header-appointment-button {
+  @extend .btn-transition;
+  position: relative;
+  float: right;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 5rem;
+  cursor: pointer;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .icon-calendar {
+    position: absolute;
+    top: 12.35px;
+    left: 16px;
+  }
+}

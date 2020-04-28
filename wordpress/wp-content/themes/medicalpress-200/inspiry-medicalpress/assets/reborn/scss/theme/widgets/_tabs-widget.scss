@@ -1,0 +1,39 @@
+.sidebar {
+
+  .tab-head {
+    background-color: lighten($mp-theme-border-color, 4%);
+    border-color: $mp-theme-border-color;
+
+    &.active {
+      background: #fff;
+      border-top-color: $mp-theme-color-one;
+    }
+  }
+
+  .tabs-content {
+    border-color: $mp-theme-border-color;
+  }
+
+}
+
+.site-footer {
+
+  .tab-head {
+
+    &.active {
+      background-color: $mp-theme-color-one;
+      color: #fff;
+    }
+  }
+
+  .tabs-content {
+    border-top-color: $mp-theme-color-one;
+  }
+
+  .tab-post-listing {
+
+    span {
+      color: #fff;
+    }
+  }
+}

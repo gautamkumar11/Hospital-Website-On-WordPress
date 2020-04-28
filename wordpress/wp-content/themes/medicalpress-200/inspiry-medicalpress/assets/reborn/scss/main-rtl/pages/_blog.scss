@@ -1,0 +1,117 @@
+.blog-page {
+
+  .comments_count {
+
+    a {
+      padding-left: 0;
+      padding-right: 24px;
+      background-position-x: 100%;
+
+      &:hover {
+        background-position-x: 100%;
+      }
+    }
+  }
+
+  .right-contents {
+
+    @include media-breakpoint-up(sm) {
+      float: left;
+    }
+  }
+
+  .post {
+
+    .left_meta {
+
+      @include media-breakpoint-up(sm) {
+        float: right;
+      }
+    }
+  }
+
+  .format-quote blockquote.quote {
+    background-position-x: 95%;
+    padding-right: 7.5rem;
+    padding-left: 3rem;
+
+    p {
+      padding-left: 0;
+      padding-right: 2rem;
+      border-left: none;
+      border-right: 1px solid transparent;
+    }
+  }
+
+  .format-link {
+    .link {
+      background-position-x: 95%;
+      padding-right: 7.5rem;
+      padding-left: 2.5rem;
+    }
+
+    .link-container {
+      padding-left: 0;
+      padding-right: 20px;
+      border-left: none;
+      border-right: 1px solid transparent;
+    }
+  }
+}
+
+.blog-page .gallery-slider,
+.gallery-single .gallery-single-post{
+  direction: ltr;
+}
+
+.entry-content {
+
+  blockquote {
+    padding-left: 20px;
+    padding-right: 30px;
+    border-left: none;
+    border-right: 5px solid transparent;
+  }
+
+  dd {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+.page-nav-btns {
+
+  a {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}
+
+/*------------------------------------------------------*/
+/* jPlayer Styles
+/*------------------------------------------------------*/
+
+.jp-interface {
+  background-position-x: left;
+}
+
+.jp-controls a {
+  text-indent: -9999px;
+}
+
+a.jp-play,
+a.jp-pause {
+  left: 10px;
+}
+
+.jp-volume-bar-container {
+  right: 10px;
+}
+
+a.jp-mute,
+a.jp-unmute {
+  right: 59px;
+}
+
+@import "blog/comments";
+@import "blog/news-shortcode";

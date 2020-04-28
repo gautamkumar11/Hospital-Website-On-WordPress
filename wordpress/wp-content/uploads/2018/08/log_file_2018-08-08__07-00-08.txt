@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: Default were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/content.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/widgets.wie
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/inspiry-customizer.dat
+Redux files:
+redux_demo -> C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/theme_options.json 
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Default Sidebar : 
+
+MedicalPress - Tabs - No Title - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Footer First Column : 
+
+Text - About MedicalPress - Widget already exists
+
+Footer Second Column : 
+
+Categories - Categories - Widget already exists
+
+Footer Third Column : 
+
+Recent Posts - Recent Posts - Widget already exists
+
+Footer Fourth Column : 
+
+Tag Cloud - Tags - Widget already exists
+
+Service Detail Page : 
+
+Search - Search - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Departments - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: redux_demo finished successfully!
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---pt-ocdi/after_import---
+

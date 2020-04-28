@@ -1,0 +1,18 @@
+.header-search-form-container {
+  border-left: none;
+  border-right: 1px solid transparent;
+
+  input {
+    padding-right: 1.7rem;
+    padding-left: 2.8rem;
+  }
+
+  .search-submit {
+    right: auto;
+    left: 0;
+  }
+
+  .icon-search {
+    transform: scale(-1, 1);
+  }
+}

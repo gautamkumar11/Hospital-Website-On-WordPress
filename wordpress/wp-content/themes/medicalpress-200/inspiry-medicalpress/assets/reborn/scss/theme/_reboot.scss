@@ -1,0 +1,13 @@
+::-moz-selection {
+  background-color: $mp-theme-color-one;
+  color: #fff;
+}
+
+::selection {
+  background-color: $mp-theme-color-one;
+  color: #fff;
+}
+
+strong {
+  color: $headings-color;
+}

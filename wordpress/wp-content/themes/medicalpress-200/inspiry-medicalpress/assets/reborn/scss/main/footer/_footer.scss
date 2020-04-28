@@ -1,0 +1,54 @@
+.site-footer {
+  font-size: 1.4rem;
+
+  a {
+    color: inherit;
+  }
+
+  .title {
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .widget_recent_comments,
+  .widget_recent_entries,
+  .widget_categories,
+  .widget_archive,
+  .widget_pages,
+  .widget_meta {
+
+    li {
+      position: relative;
+      padding-left: 3rem;
+      margin-bottom: 1.5rem;
+
+      &:before {
+        position: absolute;
+        top: 3.3px;
+        left: 0;
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        transition: background-position 0.4s ease;
+        background-repeat: no-repeat;
+        background-position: left 0;
+      }
+
+      &:hover {
+
+        &:before {
+          background-position: left -42px;
+        }
+      }
+    }
+  }
+
+  &-top {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@import "footer-bottom";
+@import "scroll-top";

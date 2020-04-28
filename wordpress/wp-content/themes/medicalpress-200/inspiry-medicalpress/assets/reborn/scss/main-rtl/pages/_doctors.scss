@@ -1,0 +1,28 @@
+.single-doctor-info {
+
+  .social-icon {
+
+    a {
+      margin-right: 0;
+      margin-left: 2rem;
+
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.single-doctor-specialities {
+
+  strong {
+    float: right;
+    margin-right: 0;
+    margin-left: 5%;
+  }
+}
+
+.doctor-shortcode-post .social-icon a {
+  margin-left: 2rem;
+  margin-right: 0;
+}

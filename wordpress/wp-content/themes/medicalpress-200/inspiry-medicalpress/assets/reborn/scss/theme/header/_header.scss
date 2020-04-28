@@ -1,0 +1,25 @@
+.site-header {
+
+  &-top {
+    border-bottom-color: $mp-theme-border-color;
+  }
+
+  &-bottom {
+
+    @include media-breakpoint-down(md) {
+      background-color: $mp-theme-color-one;
+    }
+  }
+}
+
+@import "header-opening-hours";
+@import "header-social-nav";
+@import "header-search";
+
+// Header Middle
+@import "header-address";
+@import "header-contact-number";
+
+// Header Bottom
+@import "header-menu";
+@import "header-appointment-button";

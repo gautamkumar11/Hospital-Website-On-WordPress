@@ -1,0 +1,238 @@
+.contact-page {
+  padding: 8rem 0;
+}
+
+form {
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="date"],
+  input[type="range"],
+  input[type="password"],
+  input[type ="text"],
+  textarea {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 1.3rem 1.7rem;
+    border: 1px solid transparent;
+  }
+
+  input[type="file"] {
+    margin-bottom: 3rem;
+  }
+
+  input.error,
+  textarea.error {
+    border: 1px solid transparent;
+  }
+
+  fieldset {
+
+    .common {
+      display: inline-block;
+      float: left;
+      margin-left: 7px;
+    }
+
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+#error-container {
+  margin: 0;
+
+  label {
+    display: block;
+    font-size: 1.4rem;
+  }
+}
+
+#message-sent {
+  clear: both;
+}
+
+.contact-form {
+
+  input[type ="text"],
+  textarea {
+    font-size: 1.4rem;
+  }
+
+  textarea {
+    display: block;
+    height: 150px;
+  }
+
+  input[type ="submit"] {
+
+    @include media-breakpoint-up(xl) {
+      padding: 1.2rem 3rem;
+      margin: 0 0 0 2rem;
+      float: right;
+    }
+  }
+
+  input[type ="text"],
+  textarea,
+  .inspiry-recaptcha-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+
+    #error-container:not(:empty),
+    #message-sent:not(:empty) {
+      margin-top: 0;
+    }
+  }
+}
+
+label.error {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+#contact-loader {
+  display: block;
+  float: right;
+  margin: 1.7rem 0 0 0;
+}
+
+.comment-form-cookies-consent {
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: .8rem;
+  }
+
+  label {
+    margin-bottom: 0;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"],
+  label {
+    vertical-align: middle;
+  }
+}
+
+.wpcf7-form {
+
+  > p {
+    font-weight: bold;
+    letter-spacing: 1rem;
+  }
+
+  span.wpcf7-form-control-wrap {
+    display: inline !important;
+  }
+
+  span.wpcf7-not-valid-tip {
+    font-weight: normal;
+    letter-spacing: 0.5rem;
+  }
+
+  .wpcf7-form-control {
+    margin-top: 5rem;
+  }
+
+  .wpcf7-list-item-label {
+    font-weight: normal;
+  }
+
+  input[type="text"].wpcf7-quiz,
+  input[type="number"],
+  input[type="date"] {
+    width: auto;
+  }
+}
+
+.contact-sidebar {
+  margin-top: 5rem;
+  font-size: 1.4rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+
+  p,
+  address {
+    margin-bottom: 2rem;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.contact-page-social-media {
+  border-top: 1px solid transparent;
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+
+  &-title {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+
+  &-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 .5rem .5rem 0;
+    }
+
+    a {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      line-height: 39px;
+      font-size: 18px;
+      text-align: center;
+      transition: all 0.2s linear;
+    }
+  }
+}
+
+/* Map Styles */
+.default-map-wrapper {
+  margin-top: 3rem;
+}
+
+.map-wrapper {
+
+  h5 {
+    margin-bottom: 2rem;
+  }
+}
+
+#map-canvas {
+  width: 100%;
+
+  img {
+    width: auto;
+    max-width: none;
+  }
+}
+
+.default-map {
+  height: 35.5rem;
+}
+
+.full-width-map {
+  height: 42rem;
+}

@@ -1,0 +1,75 @@
+.btn {
+
+  &:active,
+  &-primary {
+    background-color: $mp-theme-color-one;
+    color: #fff;
+  }
+
+  &-outline-primary {
+    color: $mp-theme-color-one;
+  }
+
+  &:active,
+  &-outline-primary,
+  &-primary {
+
+    &:hover {
+      background-color: darken($mp-theme-color-one, 10%);
+      color: #fff;
+    }
+  }
+}
+
+button,
+input[type="submit"],
+.read-more {
+  @extend .btn;
+  background-color: $mp-theme-color-one;
+  color: #fff;
+
+  &:hover {
+    background-color: darken($mp-theme-color-one, 10%);
+    color: #fff;
+  }
+}
+
+.read-more.black {
+  background-color: #3a3c41;
+
+  &:hover {
+    background-color: darken($mp-theme-color-one, 10%);
+  }
+}
+
+.read-more.red {
+  background-color: #f15b5a;
+
+  &:hover {
+    background-color: #e15251;
+  }
+}
+
+.read-more.orange {
+  background-color: #ffa13c;
+
+  &:hover {
+    background-color: #e19132;
+  }
+}
+
+.read-more.yellow {
+  background-color: #ffd543;
+
+  &:hover {
+    background-color: #e1b63f;
+  }
+}
+
+.read-more.green {
+  background-color: #6dc068;
+
+  &:hover {
+    background-color: #65b760;
+  }
+}

@@ -1,0 +1,12 @@
+.tagcloud {
+
+  a {
+    display: inline-block;
+    margin: 0 0.4rem 0.8rem 0;
+    padding: 0.7rem 1.4rem;
+    font-size: 1.4rem !important;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: all 0.15s linear;
+  }
+}

@@ -1,0 +1,64 @@
+$sub-menu-width: 22rem;
+
+.main-navigation {
+  float: right;
+
+  ul {
+    @extend .list-unstyled;
+  }
+
+  .main-menu > li,
+  .main-menu > ul > .page_item {
+      float: right;
+  }
+
+  .children,
+  .sub-menu {
+    left: auto;
+    right: 0;
+
+    li {
+
+      .children,
+      .sub-menu {
+        left: auto;
+        right: $sub-menu-width;
+      }
+    }
+  }
+}
+
+/* Mean menu */
+.mean-container {
+  float: right;
+
+  .mean-nav {
+    left: auto;
+    right: 0;
+
+    ul li {
+      a {
+
+        &.mean-expand {
+          border-left: none !important;
+          border-right: 1px solid transparent !important;
+        }
+      }
+    }
+  }
+}
+
+a.mean-expand {
+  left: 0;
+  right: auto;
+}
+
+.mean-container .mean-nav ul li a {
+  float: right;
+  text-align: right;
+}
+
+.mean-container a.meanmenu-reveal {
+  left: auto !important;
+  right: 0 !important;
+}

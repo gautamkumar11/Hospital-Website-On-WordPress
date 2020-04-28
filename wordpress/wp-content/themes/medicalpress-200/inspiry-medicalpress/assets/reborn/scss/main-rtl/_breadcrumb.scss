@@ -1,0 +1,22 @@
+.breadcrumb {
+  padding-right: 0;
+
+  > li {
+    float: right;
+    margin-right: 0;
+    margin-left: .6rem;
+
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+
+  .divider {
+    margin-left: 0;
+    margin-right: .6rem;
+  }
+}
+
+.breadcrumb .divider:before {
+  content: "\f104";
+}

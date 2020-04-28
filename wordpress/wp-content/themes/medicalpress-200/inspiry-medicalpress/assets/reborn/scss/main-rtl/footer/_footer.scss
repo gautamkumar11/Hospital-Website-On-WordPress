@@ -1,0 +1,31 @@
+.site-footer {
+
+  .widget_recent_comments,
+  .widget_recent_entries,
+  .widget_categories,
+  .widget_archive,
+  .widget_pages,
+  .widget_meta {
+
+    li {
+      padding-left: 0;
+      padding-right: 3rem;
+
+      &:before {
+        left: auto;
+        right: 0;
+        background-position-x: right;
+      }
+
+      &:hover {
+
+        &:before {
+          background-position-x: right;
+        }
+      }
+    }
+  }
+}
+
+@import "footer-bottom";
+@import "scroll-top";

@@ -1,0 +1,103 @@
+.select2-container {
+
+  &--default {
+
+    .select2-selection--single {
+      border-radius: 0;
+
+      .select2-selection__rendered {
+        line-height: 4.6rem;
+      }
+
+      .select2-selection__arrow {
+        height: 4.6rem;
+        width: 3.6rem;
+      }
+    }
+
+    .select2-results__option {
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .select2-results__option[data-selected=true]{
+      background-color: transparent;
+    }
+  }
+
+  .select2-selection--single {
+    height: 4.8rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    .select2-selection__rendered {
+      padding-left: 1.5rem;
+      padding-right: 2.4rem;
+    }
+  }
+}
+
+.select2-dropdown {
+  border-radius: 0;
+}
+
+.select2-results__option {
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+}
+
+.select2-search--dropdown .select2-search__field {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.select2-container {
+
+  .select2-choice {
+    padding: .6rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 0;
+  }
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 180px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  padding: 1rem;
+  display: block;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border-radius: 0;
+}
+
+.widget.woocommerce .select2-container--default .select2-search--inline .select2-search__field {
+  margin: 0;
+  width: 100% !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.select2-container .select2-search--inline {
+  float: none;
+}
+
+.widget.woocommerce .select2-search--inline {
+  border: none;
+  padding-top: 0;
+}
+
+.widget.woocommerce .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  border-radius: 0;
+  float: none;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li,
+.select2-container .select2-selection--single {
+  margin: 0;
+}

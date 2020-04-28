@@ -1,0 +1,40 @@
+.services-item {
+
+  &-featured {
+
+    .services-item-content-wrap {
+      @extend .elements-box-shadow;
+    }
+  }
+
+  &-icon {
+    box-shadow: 0 4px 12px 5px rgba(#212c37, .06);
+  }
+
+  &-one-column {
+
+    .services-item {
+      border-color: rgba(#212c37, .06);
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* Services Single page Styles
+/*------------------------------------------------------*/
+.services-single {
+
+  .flexslider {
+
+    .flex-control-nav {
+
+      a {
+        background: #e4aaa9;
+      }
+
+      .flex-active {
+        background: #f15b5a;
+      }
+    }
+  }
+}

@@ -1,0 +1,261 @@
+.arrow-style {
+
+  li {
+    background-image: url("../images/list-arrow-style.png");
+    color: #999ca5;
+  }
+}
+
+.arrow-list-one {
+  ul {
+
+    li {
+      background-image: url(../images/arrow-list-one-bg.png);
+    }
+  }
+}
+
+.arrow-list-two {
+  ul {
+
+    li {
+      background-image: url(../images/arrow-list-two-bg.png);
+    }
+  }
+}
+
+.arrow-list-three {
+  ul {
+
+    li {
+      background-image: url(../images/arrow-list-three-bg.png);
+    }
+  }
+}
+
+/*  Tabs
+---------------------------------*/
+.entry-content {
+  .tabs-nav {
+
+    li {
+      background: #fafafa;
+      border-top-color: #dcdee4;
+      border-left-color: #dcdee4;
+    }
+    li:last-child {
+      border-right-color: #dcdee4;
+    }
+    li:hover,
+    li.active {
+      background: #fff;
+    }
+    li.active {
+      border-top-color: #6dc068;
+    }
+  }
+
+  .tabs-container {
+    border-color: #dcdee4;
+    background: #fff;
+  }
+
+  .tabs-nav.vertical {
+
+    li {
+      border-right-color: #dcdee4;
+
+      &:last-child {
+        border-bottom-color: #dcdee4;
+      }
+    }
+  }
+}
+
+.alert-info {
+  border-left-color: darken(#d9edf7, 10%);
+}
+
+.alert-warning {
+  border-left-color: darken(#fcf8e3, 10%);
+}
+
+.alert-success {
+  border-left-color: darken(#dff0d8, 10%);
+}
+
+.alert-danger {
+  border-left-color: darken(#f2dede, 10%);
+}
+
+.dropcap {
+  color: #f15b5a;
+}
+
+.dropcap.bg {
+  background-color: #f15b5a;
+  color: #fff;
+}
+
+.woocommerce table.shop_attributes,
+table {
+  border-color: #e0e0e0;
+  background-color: #fff;
+  color: #3a3c41;
+
+  thead {
+    background-color: #66c9e0;
+    color: #3a3c41;
+
+    tr {
+
+      th {
+        border-right-color: #5ab1c5;
+        color: #fff;
+      }
+      th:first-child {
+        border-left-color: #66c9e0;
+      }
+      th:last-child {
+        border-right-color: #66c9e0;
+      }
+    }
+  }
+
+  tbody {
+
+    td {
+      color: #3a3c41;
+      border-color: #e0e0e0;
+    }
+    th {
+      color: #3a3c41;
+    }
+    tr {
+      border-top-color: #e0e0e0;
+    }
+  }
+}
+
+.tab-widget {
+  background-color: #f3f4f5;
+
+  .nav-tabs > li.active,
+  .nav-tabs > li.active:hover,
+  .nav-tabs > li.active:focus {
+    color: #fff;
+  }
+
+  .tab-post {
+    border-bottom-color: #d5d6d7;
+    time {
+      color: #999ca5;
+    }
+  }
+  .tab-bottom {
+    background-color: #d5d6d7;
+
+    .left {
+      background-image: url("../images/tab-nav-left.png");
+      background-color: #bbbcbd;
+
+      &:hover {
+        background-image: url("../images/tab-nav-hover.png");
+        background-color: #bbbcbd;
+      }
+    }
+    .right {
+      background-image: url("../images/tab-nav.png");
+      background-color: #bbbcbd;
+
+      &:hover {
+        background-image: url("../images/tab-nav-hover-right.png");
+        background-color: #bbbcbd;
+      }
+    }
+  }
+}
+
+.tab-var-one {
+  .nav-tabs {
+    background-color: #ffd543;
+  }
+  .nav-tabs > li {
+    border-right-color: #ffc118;
+    color: #e89300;
+  }
+  .nav-tabs > li.active,
+  .nav-tabs > li.active:hover,
+  .nav-tabs > li.active:focus {
+    background-color: #ffc118;
+  }
+
+}
+
+.tab-var-two {
+  .nav-tabs {
+    background-color: #f15b5a;
+  }
+  .nav-tabs > li {
+    border-right-color: #de4c4a;
+    color: #c63836;
+  }
+  .nav-tabs > li.active,
+  .nav-tabs > li.active:hover,
+  .nav-tabs > li.active:focus {
+    background-color: #de4c4a;
+  }
+
+}
+
+.tab-var-three {
+  .nav-tabs {
+    background-color: #66c9e0;
+  }
+  .nav-tabs > li {
+    border-right-color: #2f93ab;
+    color: #2f93ab;
+  }
+  .nav-tabs > li.active,
+  .nav-tabs > li.active:hover,
+  .nav-tabs > li.active:focus {
+    background-color: #2f93ab;
+  }
+}
+
+.flexslider-var-one {
+
+  .slides li img {
+    box-shadow: inset 0 0 34px 0 #000;
+  }
+
+  .flex-control-thumbs {
+
+    li.active {
+      background: url("../images/active-slide-arrow.png");
+      span {
+        border-color: #66c9e0;
+      }
+    }
+  }
+}
+
+.flexslider-var-two {
+
+  .slides li img {
+    box-shadow: inset 0 0 34px 0 #000;
+  }
+
+  .flex-control-thumbs {
+    li.active {
+      background: url("../images/active-slide-arrow2.png");
+      span {
+        border-color: #66c9e0;
+      }
+    }
+  }
+}
+
+.close:hover {
+  background-color: transparent;
+}

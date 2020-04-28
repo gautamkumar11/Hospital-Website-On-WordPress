@@ -1,0 +1,30 @@
+.filters {
+
+  &-wrapper {
+    border-bottom-color: $mp-theme-border-color;
+  }
+
+  > li {
+    color: $body-color;
+
+    &.active {
+
+      a {
+        border-bottom-color: $mp-theme-color-one;
+
+        &:after {
+          border-top-color: $mp-theme-color-one;
+        }
+      }
+    }
+
+    &.active,
+    &:hover {
+      color: $headings-color;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

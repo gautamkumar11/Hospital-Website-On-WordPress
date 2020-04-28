@@ -1,0 +1,170 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-content-wrapper {
+  margin-bottom: 4rem;
+}
+
+.owl-theme {
+
+  .owl-nav.disabled + .owl-dots {
+    margin-top: 4.5rem;
+  }
+
+  .owl-dots {
+
+    .owl-dot {
+
+      span {
+        width: 1.6rem;
+        height: 1.6rem;
+        margin: .5rem .6rem;
+        border-radius: 50%;
+        border: 2px solid transparent;
+      }
+    }
+  }
+}
+
+// Layout
+.inspiry-boxed-layout {
+
+  @media (min-width: 1200px) {
+
+    #page {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .container {
+      width: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .flexslider .content-wrapper {
+      transition: padding 0.3s ease-in-out;
+    }
+
+    .flexslider:hover .content-wrapper {
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+
+    .flex-direction-nav a {
+      z-index: 1000;
+    }
+  }
+}
+
+// Appointment Modal
+.appointment-modal {
+
+  .close {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    float: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-shadow: none;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+  }
+
+  .row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .col-md-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  &-form {
+    padding: 4rem 2.5rem 3.6rem;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="date"],
+  input[type="range"],
+  input[type="password"],
+  input[type="text"],
+  textarea {
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  textarea {
+    display: block;
+    height: 130px;
+  }
+
+  .inspiry-recaptcha-wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .btn,
+  input[type="submit"] {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    font-size: 1.4rem;
+  }
+}
+
+#error-container,
+#message-sent{
+
+  &:not(:empty){
+    margin-top: 2rem;
+  }
+
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.modal {
+
+  &-backdrop.in {
+    opacity: 0.65;
+  }
+
+  &.in .modal-dialog {
+    top: 17%;
+    transform: translate(0, 0);
+  }
+}
+
+@media (min-width: 576px) {
+
+  .modal-dialog {
+    max-width: 520px;
+    margin: 30px auto;
+  }
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  transition: none;
+}

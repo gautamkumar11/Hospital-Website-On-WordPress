@@ -1,0 +1,55 @@
+.site-footer-bottom {
+
+  &-right-col {
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+  }
+}
+
+.footer-navigation {
+
+  ul {
+    @extend .list-unstyled;
+  }
+
+  .footer-menu {
+
+    .page_item,
+    > li {
+      float: right;
+      margin-right: 0;
+      margin-left: 1.2rem;
+
+      @include media-breakpoint-up(md) {
+        margin-right: 0;
+        margin-left: 2.3rem;
+      }
+
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.footer-social-nav {
+
+  > li {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.5rem;
+
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+
+  &-wrapper {
+
+    @include media-breakpoint-up(md) {
+      text-align: right;
+    }
+  }
+}

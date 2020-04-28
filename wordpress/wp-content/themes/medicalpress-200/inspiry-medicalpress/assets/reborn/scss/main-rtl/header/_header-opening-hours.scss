@@ -1,0 +1,10 @@
+.opening-hours {
+
+  .icon-clock {
+
+    @include media-breakpoint-up(md) {
+      margin-right: 0;
+      margin-left: .8rem;
+    }
+  }
+}

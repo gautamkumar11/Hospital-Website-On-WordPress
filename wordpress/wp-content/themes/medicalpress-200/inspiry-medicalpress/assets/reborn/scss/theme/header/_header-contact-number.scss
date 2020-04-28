@@ -1,0 +1,15 @@
+.header-contact-number {
+
+  .icon-phone{
+    fill: $mp-theme-color-two;
+  }
+
+  > small {
+    color: $body-color;
+  }
+
+  > span,
+  > a {
+    color: $mp-theme-color-two;
+  }
+}

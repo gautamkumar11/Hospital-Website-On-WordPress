@@ -1,0 +1,29 @@
+.toggle-main .toggle-title h3,
+.accordion-main .accordion-title h3,
+.toggle-main .toggle.current .toggle-title h3,
+.accordion-main .accordion.current .accordion-title h3 {
+  color: #fff;
+}
+
+.toggle-main .toggle-content,
+.accordion-main .accordion-content {
+  background-color: #fff;
+}
+
+.toggle-main .toggle-title,
+.accordion-main .accordion-title {
+  background-color: $mp-theme-color-two;
+
+  &:hover {
+    background-color: darken($mp-theme-color-two, 3%);
+  }
+}
+
+.toggle-main .toggle.current .toggle-title,
+.accordion-main .accordion.current .accordion-title {
+  background-color: $mp-theme-color-one;
+
+  &:hover {
+    background-color: darken($mp-theme-color-one, 8%);
+  }
+}

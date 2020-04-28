@@ -1,0 +1,96 @@
+.doctor {
+
+  &-grid {
+
+    .entry-content {
+      @extend .elements-box-shadow;
+    }
+
+    .doctor-departments {
+
+      a {
+        color: $body-color;
+
+        &:hover {
+          color: $mp-theme-color-one;
+        }
+      }
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* Doctors Page styles
+/*------------------------------------------------------*/
+.single-side-content {
+  border-bottom-color: #dcdee4;
+
+  .entry-title {
+    border-bottom-color: $mp-theme-border-color;
+  }
+}
+
+.doctor-shortcode-post,
+.single-doctor-info {
+
+  .doctor-departments {
+
+    a {
+      color: $mp-theme-color-two;
+
+      &:hover {
+        color: $mp-theme-color-one;
+      }
+    }
+  }
+
+  .social-icon {
+
+    a {
+      color: #c1ccd1;
+    }
+
+    .twitter-icon:hover {
+      color: #55acee;
+    }
+
+    .skype-icon:hover {
+      color: #009EE5;
+    }
+
+    .facebook-icon:hover {
+      color: #425E9A;
+    }
+
+    .google-icon:hover {
+      color: #d63b3b;
+    }
+
+    .youtube-icon:hover {
+      color: #d02525;
+    }
+
+    .linkedin-icon:hover {
+      color: #0077B5;
+    }
+  }
+}
+
+.single-doctor-specialities {
+  border-color: #eff2f3;
+  background-color: #f8fbfc;
+}
+
+.doctors-shortcode {
+
+  .common-doctor {
+    background-color: #fff;
+  }
+}
+
+.doctor-shortcode-post{
+
+  .text-content{
+    background-color: #fff;
+  }
+}

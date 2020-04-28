@@ -1,0 +1,48 @@
+.home {
+
+  &-section {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+
+    &-header {
+      text-align: center;
+      margin-bottom: 6.5rem;
+
+      @include media-breakpoint-up(lg) {
+        padding-right: 15%;
+        padding-left: 15%;
+      }
+    }
+
+    &-title {
+      font-size: 2.4rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &-description {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+
+  &-contents {
+    font-size: 1.5rem;
+  }
+
+  &-contents {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@import "slider";
+@import "features";
+@import "doctors";
+@import "services";
+@import "blog";
+@import "testimonials";

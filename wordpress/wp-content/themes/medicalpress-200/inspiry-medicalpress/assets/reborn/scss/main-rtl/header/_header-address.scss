@@ -1,0 +1,18 @@
+.header-address {
+  padding-left: 0;
+  padding-right: 3.8rem;
+  text-align: right;
+
+  @include media-breakpoint-up(lg) {
+
+    + .header-contact-number{
+      margin-left: 0;
+      margin-right: 2rem;
+    }
+  }
+
+  .icon-pin {
+    left: auto;
+    right: -3.3px;
+  }
+}

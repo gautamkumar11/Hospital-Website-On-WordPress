@@ -1,0 +1,8 @@
+.home-blog {
+  background-color: #edf2f5;
+
+  .hentry {
+    @extend .elements-box-shadow;
+    background-color: #fff;
+  }
+}

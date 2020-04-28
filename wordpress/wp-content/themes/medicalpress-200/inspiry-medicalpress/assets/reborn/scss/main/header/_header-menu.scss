@@ -1,0 +1,121 @@
+$sub-menu-width: 22rem;
+
+.main-navigation {
+  float: left;
+
+  ul {
+    @extend .list-unstyled;
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    padding: 1.2rem .9rem;
+    transition: color 0s linear, background 0.2s ease-in-out;
+
+    @include media-breakpoint-up(xl) {
+      padding-right: 1.9rem;
+      padding-left: 1.9rem;
+    }
+  }
+
+  .main-menu > li,
+  .main-menu > ul > .page_item {
+    float: left;
+  }
+
+  .main-menu {
+
+    li {
+      position: relative;
+
+      &:hover > .children,
+      &:hover > .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        z-index: 1000;
+      }
+    }
+  }
+
+  .children,
+  .sub-menu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -1;
+    width: $sub-menu-width;
+    font-size: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-1rem);
+    transition: all 0.3s ease-in-out, z-index 0.2s ease-in-out 0.1s;
+
+    li {
+
+      .children,
+      .sub-menu {
+        top: 0;
+        left: $sub-menu-width;
+      }
+    }
+
+    a {
+      padding: 1rem 2rem;
+    }
+  }
+}
+
+/* Mean menu */
+.mean-container {
+  float: left;
+  position: relative;
+  min-height: 46px;
+
+  .mean-bar {
+    float: none;
+    padding: 0;
+    min-height: 46px;
+    z-index: 999;
+    border-bottom: none !important;
+  }
+
+  .mean-nav {
+    float: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 290px;
+    margin-top: 0;
+    overflow-x: hidden;
+    font-size: 1.4rem;
+
+    ul li {
+      a {
+        border-top: 1px solid transparent;
+
+        &.mean-expand {
+          width: 2.4rem;
+          height: 2.4rem;
+          padding: 1.2rem !important;
+          line-height: 2.5rem;
+          border-left: 1px solid transparent !important;
+          border-bottom: 1px solid transparent !important;
+        }
+      }
+
+      li a {
+        border-top: 1px solid transparent;
+      }
+    }
+
+    ul li a,
+    ul li li a {
+      opacity: 1;
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+  }
+}

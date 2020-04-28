@@ -1,0 +1,126 @@
+ .woocommerce.widget {
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .select2-container {
+    width: 100% !important;
+  }
+}
+
+.woocommerce-widget-layered-nav,
+.product-categories {
+
+  li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    border-top: 1px solid transparent;
+
+    &:last-child{
+      border-bottom: 1px solid transparent;
+    }
+
+    .children {
+      padding-top: 1rem;
+
+      li {
+        padding-left: 2rem;
+      }
+
+      li:last-child{
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.woocommerce .widget_layered_nav_filters ul li {
+
+  + li {
+    margin-left: 1.4rem;
+  }
+}
+
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li {
+  padding: 0 0 1.5rem;
+}
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+  width: 58px;
+}
+
+.widget.woocommerce ul.cart_list li img,
+.widget.woocommerce ul.product_list_widget li img {
+  margin-top: 7px;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce.widget_shopping_cart .cart_list li a.remove {
+  top: 2px;
+}
+
+.woocommerce a.remove {
+  text-align: left;
+}
+
+.woocommerce .widget_shopping_cart .total,
+.woocommerce.widget_shopping_cart .total {
+  padding: 10px 0 0;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a::before,
+.woocommerce .widget_layered_nav_filters ul li a::before {
+  margin-right: 6px;
+  vertical-align: -1px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+  border-radius: 0;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  margin-right: 5px;
+}
+
+.woocommerce .widget_price_filter {
+
+  .price_label {
+    margin-top: 1rem;
+  }
+}
+
+.woocommerce .widget_price_filter .price_label {
+  margin-top: .7rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.woocommerce .widget_top_rated_products,
+.woocommerce .widget_recent_reviews {
+
+  .star-rating {
+    font-size: 12px;
+  }
+}

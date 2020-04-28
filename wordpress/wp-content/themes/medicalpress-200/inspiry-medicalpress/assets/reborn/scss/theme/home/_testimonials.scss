@@ -1,0 +1,15 @@
+.testimonials-carousel {
+
+  &-item {
+    @extend .elements-box-shadow;
+    border-color: $mp-theme-color-one;
+    background-color: #fff;
+  }
+}
+
+.testimonial {
+
+  &-author-link {
+    color: $body-color;
+  }
+}

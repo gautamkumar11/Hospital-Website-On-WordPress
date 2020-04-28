@@ -1,0 +1,34 @@
+/*!
+ * Main CSS v1.0
+ */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "main/custom";
+
+@include import_file( '01', 'Common');
+@import "main-rtl/reboot";
+@import "main-rtl/wordpress-core";
+@import "main-rtl/breadcrumb";
+@import "main-rtl/pagination";
+@import "main-rtl/filters";
+@import "main-rtl/widgets/widgets";
+
+@include import_file( '02', 'Header');
+@import "main-rtl/header/header";
+
+@include import_file( '03', 'Footer');
+@import "main-rtl/footer/footer-call-to-action";
+@import "main-rtl/footer/footer";
+
+@include import_file( '04', 'Pages');
+@import "main-rtl/home/home";
+@import "main-rtl/pages/doctors";
+@import "main-rtl/pages/services";
+@import "main-rtl/pages/gallery";
+@import "main-rtl/pages/blog";
+@import "main-rtl/pages/contact";
+@import "main-rtl/pages/appointment";
+@import "main-rtl/pages/page";
+@import "main-rtl/pages/faq";
+@import "main-rtl/pages/shop";

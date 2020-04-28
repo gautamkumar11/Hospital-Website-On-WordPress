@@ -1,0 +1,86 @@
+.woocommerce-checkout {
+
+  h3 {
+    font-size: 1.8rem;
+  }
+}
+
+.woocommerce,
+.woocommerce-page {
+
+  .col2-set .col-1,
+  .col2-set .col-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+
+    @include media-breakpoint-up(lg) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  .col2-set .col-2 {
+
+    @include media-breakpoint-down(lg) {
+      padding-top: 3rem;
+    }
+  }
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: #f8f9fa;
+  border-radius: 0;
+}
+
+.woocommerce form .form-row label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#order_review_heading {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.woocommerce form .form-row textarea {
+  height: 13.5rem;
+}
+
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal {
+  margin-left: 1rem;
+}
+
+#ship-to-different-address-checkbox {
+  vertical-align: 2px;
+  margin-right: .5rem;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li input {
+  vertical-align: 2px;
+}
+
+.woocommerce .woocommerce-customer-details address {
+  border-radius: 0;
+  padding: 20px 25px;
+}
+
+.woocommerce .checkout_coupon .form-row {
+  margin-bottom: 0;
+
+   button.button {
+    padding-top: 1.5rem;
+    padding-bottom: 1.6rem;
+  }
+}
+
+.woocommerce-terms-and-conditions {
+  box-shadow: none;
+
+  p{
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,55 @@
+.call-to-action {
+  padding: 3rem 0;
+
+  @include media-breakpoint-up(xl) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .row + .row{
+      margin-top: 4rem;
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &-item {
+
+    @include media-breakpoint-down(lg) {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &-icon {
+    display: inline-block;
+    max-width: 49px;
+    min-width: 32px;
+    padding-right: 17px;
+  }
+
+  &-action {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 49px);
+  }
+
+  &-title {
+    margin-bottom: .2rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: inherit;
+  }
+
+  &-content {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1.534;
+  }
+}

@@ -1,0 +1,29 @@
+.header-social-nav {
+  @extend .site-header-top-common;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  line-height: 1;
+  vertical-align: middle;
+
+  a{
+    opacity: .6;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  > li {
+    float: left;
+    margin-right: 1.6rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  + .header-search-form-container {
+    margin-left: 1.6rem;
+  }
+}

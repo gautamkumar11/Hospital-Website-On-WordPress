@@ -1,0 +1,11 @@
+.header-search-form-container {
+  border-left-color: $mp-theme-border-color;
+
+  input {
+    @include placeholder($body-color);
+  }
+
+  .icon-search {
+    fill: $body-color;
+  }
+}

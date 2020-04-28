@@ -1,0 +1,34 @@
+@mixin list-unstyled {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// Lists
+.list-unstyled,
+.list-inline {
+  @include list-unstyled;
+}
+
+.list-inline-item {
+
+  &:not(:last-child) {
+    margin-right: 0;
+    margin-left: $list-inline-padding;
+  }
+}
+
+ol,
+ul,
+dl {
+  padding-left: 0;
+  padding-right: 1.8rem;
+}
+
+// Tables
+caption {
+  text-align: right;
+}
+
+th {
+  text-align: right;
+}

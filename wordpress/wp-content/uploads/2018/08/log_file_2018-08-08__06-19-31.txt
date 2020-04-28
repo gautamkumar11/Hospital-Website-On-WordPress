@@ -1,0 +1,71 @@
+
+---Downloaded files---
+The import files for: Default were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/content.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/widgets.wie
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/inspiry-customizer.dat
+Redux files:
+redux_demo -> C:\xampp\htdocs\wordpress/wp-content/themes/medicalpress-200/inspiry-medicalpress/inc/demo-import/default/theme_options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Default Sidebar : 
+
+MedicalPress - Tabs - No Title - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+Footer First Column : 
+
+Text - About MedicalPress - Imported
+
+Footer Second Column : 
+
+Categories - Categories - Imported
+
+Footer Third Column : 
+
+Recent Posts - Recent Posts - Imported
+
+Footer Fourth Column : 
+
+Tag Cloud - Tags - Imported
+
+Service Detail Page : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+Tag Cloud - Departments - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: redux_demo finished successfully!

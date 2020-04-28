@@ -1,0 +1,12 @@
+.home-features {
+
+  &-item {
+    @extend .elements-box-shadow;
+    border-top-color: #03b0dd;
+    background-color: #fff;
+
+    &:hover {
+      border-color: #fdb813;
+    }
+  }
+}

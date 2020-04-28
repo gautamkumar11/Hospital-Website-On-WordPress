@@ -1,0 +1,200 @@
+.blog-page {
+
+  .left_meta time {
+
+    @include media-breakpoint-up(sm) {
+      background-color: lighten($mp-theme-border-color, 4%);
+      color: $headings-color;
+    }
+  }
+
+  .comments_count {
+    background-color: #e7ecee;
+
+    a {
+      background-image: url("../../../common/images/comment-count-icon.png");
+      color: #676666;
+    }
+  }
+
+  .right-contents {
+
+    &:not(.single-right-contents){
+      border-bottom-color: $mp-theme-border-color;
+    }
+  }
+
+  .post {
+
+    .left_meta {
+      border-top-color: #f15b5a;
+      background-color: #fff;
+    }
+  }
+
+  .sticky {
+
+    .right-contents {
+      border-bottom-color: $mp-theme-border-color;
+    }
+  }
+
+  .format-quote blockquote.quote {
+    background-image: url("../images/double-quotes.png");
+    background-color: #f15b5a;
+    color: #fff;
+
+    p {
+      border-left-color: #f47c7b;
+      color: #fff;
+    }
+
+    cite,
+    cite a {
+      color: #fff;
+    }
+  }
+
+  .gallery-slider {
+
+    &.loading {
+      background-image: url('../images/loader.gif');
+      background-color: #f0f5f7;
+    }
+  }
+
+  .format-link {
+    .link {
+      background-image: url("../images/link-format-bg.png");
+      background-color: #f15b5a;
+      .link-title,
+      .link-title a {
+        color: #fff;
+      }
+      a {
+        color: #fff;
+      }
+    }
+    .link-container {
+      border-left-color: #f47c7b;
+    }
+  }
+
+  blockquote {
+    border-left-color: #4dbed9;
+  }
+}
+
+.main-contents {
+  border-bottom-color: $mp-theme-border-color;
+}
+
+.entry-content {
+
+  blockquote {
+    background: #f3f8fa;
+    border-left-color: #86d0e4;
+  }
+
+  table tbody td {
+    border-color: #e0e0e0;
+  }
+  table tbody tr {
+    border-top-color: #e0e0e0;
+  }
+  table tbody tr:first-child {
+    border-top-color: #e0e0e0;
+  }
+
+  kbd {
+    background-color: $mp-theme-color-one;
+  }
+
+  pre {
+    background-color: #f7f7f7;;
+    color: $headings-color;
+  }
+}
+
+.entry-footer {
+
+  .far,
+  .fas {
+    color: $mp-theme-color-two;
+  }
+}
+
+.page-nav-btns {
+  a {
+    background-color: $mp-theme-color-one;
+    color: #fff;
+    &:hover {
+      color: #fff;
+      background-color: $mp-theme-color-two;
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* jPlayer Styles
+/*------------------------------------------------------*/
+.jp-video-container,
+.jp-audio-container {
+  box-shadow: 0 1px 3px #7f7f7f;
+}
+
+.jp-interface {
+  background-image: transparent url(../images/jplayer/jp-bg.png);
+}
+
+a.jp-play {
+  background-image: url(../images/jplayer/play.png);
+}
+
+a.jp-play:hover {
+  background-image: url(../images/jplayer/play_hover.png);
+}
+
+a.jp-pause {
+  background-image: url(../images/jplayer/pause.png);
+  display: none;
+}
+
+a.jp-pause:hover {
+  background-image: url(../images/jplayer/pause_hover.png);
+}
+
+.jp-seek-bar {
+  background-image: url(../images/jplayer/seek-bar-bg.png);
+}
+
+.jp-play-bar {
+  background-color: #5af1a5;
+}
+
+.jp-volume-bar {
+  background-image: url(../images/jplayer/volume-bar-bg.png);
+}
+
+.jp-volume-bar-value {
+  background-color: #5af1a5;
+}
+
+a.jp-mute {
+  background-image: url(../images/jplayer/volume.png);
+}
+
+a.jp-mute:hover {
+  background-image: url(../images/jplayer/volume_hover.png);
+}
+
+a.jp-unmute {
+  background-image: url(../images/jplayer/mute.png);
+}
+
+a.jp-unmute:hover {
+  background-image: url(../images/jplayer/mute_hover.png);
+}
+
+@import "blog/comments";
+@import "blog/news-shortcode";

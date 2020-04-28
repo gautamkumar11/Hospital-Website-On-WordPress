@@ -1,0 +1,37 @@
+.banner {
+  position: relative;
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  &-image-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .88;
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+.page-title {
+  margin-bottom: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.hide-banner-text{
+  min-height: 154px;
+
+  .page-title,
+  .breadcrumb-nav{
+    display: none;
+  }
+}

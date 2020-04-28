@@ -1,0 +1,33 @@
+.site-logo {
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+}
+
+.site-title {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.tag-line {
+  display: block;
+  font-size: 1.2rem;
+  vertical-align: middle;
+
+  @media (min-width: 1366px) {
+    display: inline-block;
+    margin-left: 1.2rem;
+  }
+}

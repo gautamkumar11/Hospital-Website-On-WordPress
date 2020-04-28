@@ -1,0 +1,129 @@
+.woocommerce-store-notice,
+p.demo_store {
+  background-color: $mp-theme-color-one;
+}
+
+.woocommerce-message::before {
+  color: $mp-theme-color-one;
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+  background-color: #f8f9fa;
+}
+
+.woocommerce-info {
+  border-top-color: $mp-theme-color-two;
+}
+
+.woocommerce .woocommerce-message {
+  border-top-color: $mp-theme-color-one;
+}
+
+.woocommerce-info::before {
+  color: $mp-theme-color-two;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  background: #fff;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+
+  span.onsale {
+    background-color: $mp-theme-color-two;
+    color: #fff;
+  }
+
+  mark {
+    color: $body-color;
+  }
+}
+
+.woocommerce,
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+
+  span.onsale {
+    background-color: $mp-theme-color-two;
+    color: #fff;
+  }
+}
+
+.woocommerce .star-rating:before,
+.woocommerce .star-rating span:before {
+  color: #F2B827;
+}
+
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce a.button,
+.woocommerce a.added_to_cart,
+.woocommerce button.button,
+.woocommerce button.button.disabled,
+.woocommerce input.button,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce #respond input#submit,
+.woocommerce #respond input[type="submit"],
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt.disabled,
+.woocommerce input.button.alt {
+  background-color: $mp-theme-color-one;
+  color: #fff;
+
+  &:hover {
+    background-color: $mp-theme-color-two;
+    color: #fff;
+  }
+}
+
+.woocommerce nav.woocommerce-pagination ul,
+.woocommerce nav.woocommerce-pagination ul li {
+  border: none;
+
+  a,
+  span {
+    background-color: $mp-theme-color-one;
+    color: #fff;
+
+    &:hover,
+    &.current {
+      background-color: $mp-theme-color-two;
+      color: #fff;
+    }
+  }
+}
+
+.woocommerce-loop-product__title {
+
+  &:hover {
+    color: $mp-theme-color-one;
+  }
+}
+
+.woocommerce-MyAccount-navigation {
+
+  li {
+    border-color: $mp-theme-border-color;
+  }
+}
+
+.woocommerce table.shop_table td {
+
+  &.woocommerce-orders-table__cell-order-actions {
+
+    a {
+      color: $mp-theme-color-two;
+
+      &:hover {
+        color: $mp-theme-color-one;
+      }
+    }
+  }
+}

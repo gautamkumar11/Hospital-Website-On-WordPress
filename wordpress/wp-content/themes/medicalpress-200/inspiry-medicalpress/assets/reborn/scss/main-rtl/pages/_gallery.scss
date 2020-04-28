@@ -1,0 +1,43 @@
+.gallery-single {
+
+  #carousel {
+
+    .flex-viewport {
+      padding-right: 8px;
+      padding-left: 9px;
+    }
+
+    li {
+      margin: 0 10px 0 0;
+    }
+
+    .flex-direction-nav {
+
+      a {
+
+        &:hover {
+          background-position: 19px -31px;
+        }
+      }
+    }
+  }
+
+  .next-prev-posts {
+    text-align: left;
+
+    .fa-chevron-left:before {
+      content: "\f054";
+    }
+
+    .fa-chevron-right:before {
+      content: "\f053";
+    }
+  }
+}
+
+html.swipebox {
+  overflow: hidden !important;
+}
+html.swipebox #swipebox-overlay {
+  direction: ltr;
+}

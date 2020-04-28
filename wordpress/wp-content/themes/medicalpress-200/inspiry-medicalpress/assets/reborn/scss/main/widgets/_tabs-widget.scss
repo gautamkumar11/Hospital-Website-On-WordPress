@@ -1,0 +1,105 @@
+.tabs {
+
+  .tab-head {
+    text-align: center;
+    float: left;
+    width: 33.3333333333%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .tabs-content {
+    display: none;
+    clear: both;
+  }
+
+  .tab-post-listing {
+    margin-bottom: 2rem;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    figure {
+      float: left;
+      margin: 0 15px 0 0;
+    }
+
+    h6 {
+      font-size: 14px;
+      margin: 2px 0;
+      line-height: 18px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .avatar {
+    width: 100%;
+  }
+}
+
+.sidebar {
+
+  .tab-head {
+    padding: 14px 0;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+
+    + .tab-head {
+      border-left: none;
+    }
+
+    h6 {
+      font-size: inherit;
+    }
+
+    &.active {
+      background: #fff;
+      border-top: 2px solid transparent;
+      border-bottom-color: transparent;
+    }
+  }
+
+  .tabs-content {
+    padding: 20px 15px 25px;
+    border: 1px solid transparent;
+    border-top: none;
+  }
+
+  .tab-post-listing {
+
+    figure {
+      width: 78px;
+    }
+  }
+}
+
+.site-footer {
+
+  h6 {
+    color: inherit;
+  }
+
+  .tab-head {
+    padding: 8px 10px;
+
+    h6 {
+      margin: 4px 0;
+    }
+  }
+
+  .tabs-content {
+    padding: 17px 0 0;
+    border-top: 2px solid transparent;
+  }
+
+  .tab-post-listing {
+
+    figure {
+      width: 64px;
+    }
+  }
+}

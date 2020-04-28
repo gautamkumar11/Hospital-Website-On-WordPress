@@ -1,0 +1,11 @@
+.header-contact-number {
+  padding-right: 3.3rem;
+  padding-left: 0;
+  text-align: right;
+
+  .icon-phone {
+    left: auto;
+    right: -4px;
+    transform: rotate(-14deg) scale(-1,1);
+  }
+}

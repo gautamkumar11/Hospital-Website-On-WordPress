@@ -1,0 +1,22 @@
+.home-services{
+
+  .btn-wrapper{
+    position: relative;
+    z-index: 500;
+    margin-top: -6rem;
+  }
+
+  .btn {
+    padding: 2.7rem 3.3rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 18px auto;
+  }
+}
+
+.services-item-icon{
+
+  img{
+    max-width: 64px;
+  }
+}

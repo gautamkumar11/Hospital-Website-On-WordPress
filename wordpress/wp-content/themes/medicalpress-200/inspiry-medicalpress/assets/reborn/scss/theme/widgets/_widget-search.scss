@@ -1,0 +1,34 @@
+.widget {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="search"] {
+    color: inherit;
+    border-color: $mp-theme-border-color;
+  }
+}
+
+.site-footer .widget {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="search"] {
+    background-color: #39424b;
+    border-color: #39424b;
+  }
+}
+
+.widget_product_search,
+.widget .search-form,
+.widget_search {
+
+  button,
+  input[type="submit"] {
+    background-image: url("../images/svg/icon-search.svg");
+  }
+}
+
+.wp-email-capture-error {
+  background-color: transparent;
+  color: #ff0000;
+}

@@ -1,0 +1,33 @@
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: #f8f9fa;
+}
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+  background-color: $mp-theme-color-two;
+  color: #fff;
+}
+
+#add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {
+  border-bottom-color: $mp-theme-color-two;
+}
+
+.woocommerce form .form-row label {
+  color: $headings-color;
+}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+  border-color: $mp-theme-border-color;
+}
+
+.woocommerce-terms-and-conditions {
+  border-color: $mp-theme-border-color;
+  background: #fff;
+}

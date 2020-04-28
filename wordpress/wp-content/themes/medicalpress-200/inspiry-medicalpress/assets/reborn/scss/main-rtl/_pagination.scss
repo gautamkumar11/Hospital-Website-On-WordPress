@@ -1,0 +1,15 @@
+.pagination,
+.page-links {
+
+  .prev {
+    .fa-long-arrow-left:before {
+      content: "\f178";
+    }
+  }
+
+  .next {
+    .fa-long-arrow-right:before {
+      content: "\f177";
+    }
+  }
+}

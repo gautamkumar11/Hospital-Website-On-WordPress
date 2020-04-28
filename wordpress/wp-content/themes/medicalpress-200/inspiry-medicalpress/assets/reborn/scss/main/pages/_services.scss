@@ -1,0 +1,131 @@
+.services-page {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+
+.services-item {
+  margin-bottom: 3rem;
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &-featured {
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &-icon {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  &-title {
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  &-content-wrap {
+    padding: 4rem 4rem 6rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &-one-column {
+    margin-bottom: 3rem;
+
+    .services-item-title {
+
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 1.1rem;
+      }
+    }
+
+
+    @include media-breakpoint-up(lg) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: left;
+    }
+
+    .services-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-bottom: 0;
+      border: 1px solid transparent;
+    }
+
+    figure {
+
+      @include media-breakpoint-up(lg) {
+        flex: 0 0 40%;
+        max-width: 40%;
+      }
+
+      @include media-breakpoint-up(xl) {
+        flex: 0 0 30%;
+        max-width: 30%;
+      }
+    }
+
+    .services-item-content-wrap {
+      width: 100%;
+      padding: 2.5rem;
+      box-shadow: none;
+
+      @include media-breakpoint-up(lg) {
+        flex: 0 0 60%;
+        max-width: 60%;
+        padding: 3rem;
+        text-align: left;
+      }
+
+      @include media-breakpoint-up(xl) {
+        flex: 0 0 70%;
+        max-width: 70%;
+      }
+    }
+  }
+}
+
+/*------------------------------------------------------*/
+/* Services Single page Styles
+/*------------------------------------------------------*/
+.services-single {
+  padding: 70px 0;
+
+  .flexslider {
+    position: relative;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+
+    ul {
+      margin: 0;
+    }
+
+    .flex-control-nav {
+      position: absolute;
+      right: 10px;
+      bottom: 4px;
+      z-index: 999;
+      width: auto;
+      margin-bottom: 0;
+
+      li {
+        margin: 0 6px;
+      }
+    }
+  }
+}

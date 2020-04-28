@@ -1,0 +1,58 @@
+form {
+
+  fieldset {
+
+    label {
+      float: right;
+    }
+
+    .common {
+      float: right;
+      margin-left: 0;
+      margin-right: 7px;
+    }
+  }
+}
+
+.contact-form {
+
+  input[type ="submit"] {
+
+    @include media-breakpoint-up(xl) {
+      margin-right: 2rem;
+      margin-left: 0;
+      float: left;
+    }
+  }
+}
+
+#contact-loader {
+  float: left;
+}
+
+
+.comment-form-cookies-consent {
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0;
+    margin-left: .8rem;
+  }
+}
+
+.contact-page-social-media {
+
+  &-list {
+
+    li {
+      margin-right: 0;
+      margin-left: .5rem;
+    }
+  }
+}
+
+.recaptcha_options li {
+  float: right;
+  margin-right: 0;
+  margin-left: 5rem;
+}

@@ -1,0 +1,18 @@
+.opening-hours {
+  @extend .site-header-top-common;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+
+  .icon-clock {
+
+    @include media-breakpoint-up(md) {
+      margin-right: .8rem;
+    }
+  }
+
+  span,
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

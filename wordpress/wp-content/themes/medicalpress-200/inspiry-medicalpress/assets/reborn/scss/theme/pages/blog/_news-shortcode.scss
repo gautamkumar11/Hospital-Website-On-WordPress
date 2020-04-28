@@ -1,0 +1,37 @@
+.news-shortcode {
+
+  .common-blog-post {
+    background-color: #fff;
+  }
+
+  .gallery-slider {
+
+    &.loading {
+      background: #f0f5f7 url('../images/loader.gif') no-repeat center center;
+    }
+  }
+
+  .format-link {
+
+    .link {
+      background-image: url("../images/link-format-bg.png");
+      background-color: #f15b5a;
+
+      h3.link-title,
+      h3.link-title a {
+        color: #fff;
+      }
+      a {
+        color: #fff;
+      }
+    }
+
+    .link-container{
+      border-left-color: #f47c7b;
+    }
+  }
+
+  blockquote {
+    border-left-color: #4dbed9;
+  }
+}

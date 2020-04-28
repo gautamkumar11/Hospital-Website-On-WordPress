@@ -1,0 +1,38 @@
+.woocommerce-widget-layered-nav,
+.product-categories {
+
+  li {
+
+    .children {
+
+      li {
+        padding-left: 0;
+        padding-right: 2rem;
+      }
+    }
+  }
+}
+
+.woocommerce .widget_layered_nav_filters ul li {
+
+  + li {
+    margin-left: 0;
+    margin-right: 1.4rem;
+  }
+}
+
+.woocommerce a.remove {
+  text-align: right;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a::before,
+.woocommerce .widget_layered_nav_filters ul li a::before {
+  margin-right: 0;
+  margin-left: 6px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  margin-right: 0;
+  margin-left: 5px;
+}

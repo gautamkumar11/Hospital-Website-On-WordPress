@@ -1,0 +1,86 @@
+html {
+  font-size: 10px;
+}
+
+//
+// Transition
+//
+.btn-transition {
+  transition: all 0.13s linear;
+}
+
+.text-transition {
+  transition: color 0.13s linear;
+}
+
+.no-transition {
+  transition: initial;
+}
+
+a,
+input,
+button,
+textarea {
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  @extend .text-transition;
+}
+
+table,
+blockquote,
+p {
+  margin-bottom: 3rem;
+}
+
+ol,
+ul,
+dl {
+  margin-bottom: 2.5rem;
+  padding-left: 1.8rem;
+}
+
+
+//
+// Horizontal rules
+//
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+//
+// Image Transition
+//
+.image-transition {
+  overflow: hidden;
+
+  img {
+    transform: scale(1);
+    transition: transform .3s cubic-bezier(0.4, 0, 1, 1);
+    backface-visibility: hidden;
+  }
+
+  &:hover {
+
+    img {
+      transform: scale(1.05);
+      transition: transform .4s cubic-bezier(0.4, 0, 1, 1);
+    }
+  }
+}
+
+.disable-image-transition {
+
+  &:hover {
+
+    img {
+      transform: scale(1);
+    }
+  }
+}

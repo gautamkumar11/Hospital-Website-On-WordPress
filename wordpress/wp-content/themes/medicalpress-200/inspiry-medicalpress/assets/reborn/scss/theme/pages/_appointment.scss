@@ -1,0 +1,28 @@
+.appoint-page {
+
+  .appoint-section {
+    background-image: url("../images/appoint-form-bg.png");
+  }
+
+  form {
+    background-image: url("../images/appoint-form-bottom.png");
+    background-color: #fff;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      border-bottom-color: #dcdee4;
+
+      &.error {
+        border-color: red;
+      }
+    }
+  }
+}
+
+#appointment_form_main {
+
+  #recaptcha_image img {
+    border-color: #dcdee4;
+  }
+}

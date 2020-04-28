@@ -1,0 +1,73 @@
+.gallery-grid {
+  @extend .elements-box-shadow;
+
+  &:hover {
+    @extend .elements-box-shadow-hover;
+  }
+
+  .gallery-item-types {
+
+    a {
+      color: #8193a1;
+
+      &:hover {
+        color: $mp-theme-color-one;
+      }
+    }
+  }
+}
+
+.overlay {
+  background-image: url("../../../common/images/for-expand-mirror.png");
+  background-color: $mp-theme-color-one;
+}
+
+/*------------------------------------------------------*/
+/* Gallery Single Page Styles
+/*------------------------------------------------------*/
+.gallery-single {
+
+  #carousel {
+
+    .flex-viewport {
+      background-color: #fff;
+    }
+
+    .slides {
+      background: #fff;
+    }
+
+    .flex-direction-nav {
+
+      a {
+
+        &:hover {
+          background-color: $mp-theme-color-one;
+        }
+      }
+
+      .flex-prev {
+        background-image: url("../../../common/images/carousel-prev.png");
+        background-color: #fff;
+      }
+
+      .flex-next {
+        background-image: url("../../../common/images/carousel-next.png");
+        background-color: #fff;
+      }
+    }
+  }
+
+  .next-prev-posts {
+
+    a {
+      background: $mp-theme-color-two;
+      color: #fff;
+
+      &:hover {
+        background: $mp-theme-color-one;
+        color: #fff;
+      }
+    }
+  }
+}
